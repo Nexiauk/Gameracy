@@ -19,6 +19,11 @@ html body {
 header {
     border: solid 1px var(--white-smoke);
 }
+
+footer {
+    border: solid, 1px var(--white-smoke);
+
+}
 .navbar {
     background-color: var(--black-smoke);
 

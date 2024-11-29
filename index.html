@@ -14,7 +14,8 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body>
+<!-- Classes set on body to work with mt-auto on footer to ensure it stays at the bottom. -->
+<body class="d-flex flex-column min-vh-100">
     <header>
         <nav class="navbar navbar-expand-sm">
             <div class="container-fluid">
@@ -49,14 +50,13 @@
     </header>
 
     <!-- Hero section -->
-
     <section id="hero-section" class="container gx-0">
         <div class="row gx-0">
             <div class="col-12">
                 <img id="hero-image" src="/assets/images/hero.jpg" alt="Image of tabletop gaming elements.">
             </div>
             <div class="col-12">
-                <p class="main-text">Gameracy is a tabletop gaming programme that helps to improve literacy,
+                <p class="main-text text-center">Gameracy is a tabletop gaming programme that helps to improve literacy,
                     numeracy</p>
             </div>
         </div>
@@ -75,6 +75,11 @@
         </div>
     </section>
 
+    <!-- Footer with mt-auto added to push to bottom-->
+    <footer class="mt-auto">
+
+    </footer>
+
 
 
     <!-- Bootstrap javascript link -->
@@ -83,7 +88,6 @@
         crossorigin="anonymous"></script>
     <!-- Font awesome kit -->
     <script src="https://kit.fontawesome.com/0b96933893.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
