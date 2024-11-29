@@ -55,3 +55,14 @@ header {
     width: 50px;
 
 }
+
+.navbar-toggler {
+    border: none;
+}
+
+.fa-solid.fa-bars {
+    color: #f2f2f2;
+    padding-right: 10px;
+    padding-top: 6px;
+    font-size: 2rem;
+}
