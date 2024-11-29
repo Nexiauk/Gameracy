@@ -18,6 +18,29 @@ header {
 
 }
 
+.navbar {
+    background-color: var(--smoky-black);
+}
+
+
+.navbar .nav-link {
+    color: var(--white-smoke);
+    display: flex;
+    justify-content: center;
+    border: solid 1px var(--misty-yellow);
+}
+
+.navbar .nav-link.active {
+    background-color: var(--misty-yellow);
+    color: var(--smoky-black)
+}
+
+.navbar .nav-link:hover {
+    color: var(--smoky-black);
+    background-color: var(--misty-yellow);
+    
+}
+
 .logo-text {
     color: var(--white-smoke);
     font-family: 'Cardo', sans-serif;
