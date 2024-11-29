@@ -11,11 +11,11 @@
 
 html body {
     background-color: var(--smoky-black);
+    color: var(--white-smoke);
 }
 
 header {
     border: solid 1px var(--white-smoke);
-    position: fixed;
     width: 100%
 }
 
@@ -67,6 +67,19 @@ header {
     padding-top: 6px;
     font-size: 2rem;
 }
+
+#hero-section {
+    margin-top: 10px;
+}
+
+#hero-image {
+    width: 100%;
+}
+
+#hero-text {
+    margin: 10px;
+}
+
 
 /* Responsive media query for tablets 768px and above */
 @media screen and (min-width:768px) {
