@@ -8,3 +8,27 @@
     --smoky-black: #0d0d0d;
     --misty-yellow: #d9bb62;
 }
+
+html body {
+    background-color: var(--smoky-black);
+}
+
+header {
+    border: solid 1px var(--white-smoke);
+
+}
+
+.logo-text {
+    color: var(--white-smoke);
+    font-family: 'Cardo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.5rem;
+    padding-top: 6px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+
+}
