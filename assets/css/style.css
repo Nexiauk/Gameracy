@@ -15,7 +15,8 @@ html body {
 
 header {
     border: solid 1px var(--white-smoke);
-
+    position: fixed;
+    width: 100%
 }
 
 .navbar {
@@ -38,7 +39,7 @@ header {
 .navbar .nav-link:hover {
     color: var(--smoky-black);
     background-color: var(--misty-yellow);
-    
+
 }
 
 .logo-text {
@@ -65,4 +66,20 @@ header {
     padding-right: 10px;
     padding-top: 6px;
     font-size: 2rem;
+}
+
+/* Responsive media query for tablets 768px and above */
+@media screen and (min-width:768px) {
+
+    /* Responsive navbar for tablets, with justified items. */
+    .navbar-nav {
+        width: 75%
+    }
+
+    .nav-item {
+        flex-basis: 0;
+        flex-grow: 1;
+        text-align: center;
+    }
+
 }
