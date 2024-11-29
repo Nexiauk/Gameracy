@@ -86,6 +86,10 @@ footer {
     font-size: 1rem;
 }
 
+#benefits-section {
+    margin-bottom: 150px;
+}
+
 .sub-heading {
     font-family: 'Squada One', sans-serif;
     color: var(--black-smoke);
@@ -96,6 +100,20 @@ footer {
 
 .sub-heading-bg {
     background-color: var(--misty-yellow);
+}
+
+
+
+#socials {
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0;
+    color: var(--white-smoke);
+    font-size: 1.5rem;
+
 }
 
 
@@ -119,7 +137,7 @@ footer {
         border: solid 1px var(--misty-yellow);
     }
 
-    #benefits {
+    #benefits-section {
         margin-top: 3rem;
         border: solid 1px var(--misty-yellow);
     }
