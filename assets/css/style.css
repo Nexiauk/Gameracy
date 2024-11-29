@@ -1,0 +1,10 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&family=Squada+One&display=swap');
+
+/* Global styles */
+
+:root {
+    --white-smoke: #f2f2f2;
+    --smoky-black: #0d0d0d;
+    --misty-yellow: #d9bb62;
+}
