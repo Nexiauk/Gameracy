@@ -5,12 +5,13 @@
 
 :root {
     --white-smoke: #f2f2f2;
-    --smoky-black: #0d0d0d;
+    --black-smoke: #0d0d0d;
     --misty-yellow: #d9bb62;
 }
 
+
 html body {
-    background-color: var(--smoky-black);
+    background-color: var(--black-smoke);
     color: var(--white-smoke);
     font-family: 'Andika', sans-serif;
 }
@@ -18,29 +19,27 @@ html body {
 header {
     border: solid 1px var(--white-smoke);
 }
-
 .navbar {
-    background-color: var(--smoky-black);
-    width: 100%;
-}
+    background-color: var(--black-smoke);
 
+}
 
 .navbar .nav-link {
     color: var(--white-smoke);
     display: flex;
     justify-content: center;
-    border: solid 1px var(--misty-yellow);
+    border: 1px solid var(--misty-yellow);
+
 }
 
 .navbar .nav-link.active {
     background-color: var(--misty-yellow);
-    color: var(--smoky-black)
+    color: var(--smoky-black);
 }
 
 .navbar .nav-link:hover {
     color: var(--smoky-black);
     background-color: var(--misty-yellow);
-
 }
 
 .logo-text {
@@ -70,16 +69,30 @@ header {
 }
 
 #hero-section {
-    margin:1px;
+    margin-top: 5px;
 }
 
 #hero-image {
     width: 100%;
 }
 
-#hero-text {
-    margin: 5px;
+.main-text {
+    padding: 10px 20px;
+    font-size: 1rem;
 }
+
+.sub-heading {
+    font-family: 'Squada One', sans-serif;
+    color: var(--black-smoke);
+    font-size: 2rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.sub-heading-bg {
+    background-color: var(--misty-yellow);
+}
+
 
 
 /* Responsive media query for tablets 768px and above */
@@ -87,13 +100,23 @@ header {
 
     /* Responsive navbar for tablets, with justified items. */
     .navbar-nav {
-        width: 75%
+        width: 80%;
     }
 
     .nav-item {
         flex-basis: 0;
         flex-grow: 1;
         text-align: center;
+    }
+
+    #hero-section {
+        margin-top: 3rem;
+        border: solid 1px var(--misty-yellow);
+    }
+
+    #benefits {
+        margin-top: 3rem;
+        border: solid 1px var(--misty-yellow);
     }
 
 }
