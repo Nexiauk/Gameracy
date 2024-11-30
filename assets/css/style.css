@@ -82,7 +82,7 @@ footer {
 }
 
 section {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .sub-heading {
@@ -127,15 +127,9 @@ section {
         text-align: center;
     }
 
-    #hero-section {
+    /* Shrinks all sections in containers in the body, when screen is 768+ */
+    body section.container {
         width: 75%;
-        margin-top: 3rem;
-        border: solid 1px var(--misty-yellow);
-    }
-
-    #benefits-section  {
-        width: 75%;
-        margin-top: 3rem;
         border: solid 1px var(--misty-yellow);
     }
 }
