@@ -74,7 +74,7 @@ footer {
     margin-top: 5px;
 }
 
-#hero-image {
+img {
     width: 100%;
 }
 
@@ -114,7 +114,7 @@ section {
 
 /* Responsive media queries for phones 320px and above */
 @media screen and (min-width:320px) {
-    .hide-col {
+    .hide-img {
         display: none;
     }
 }
@@ -139,7 +139,7 @@ section {
         border: solid 1px var(--misty-yellow);
     }
 
-    .hide-col {
-   display: block;
+    .hide-img {
+        display: block;
     }
 }
