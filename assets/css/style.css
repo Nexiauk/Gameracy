@@ -75,6 +75,7 @@ footer {
     margin-top: 5px;
 }
 
+
 img {
     width: 100%;
 }
@@ -120,6 +121,11 @@ section {
     }
 }
 
+.gold-outline {
+    display: none;
+}
+
+
 /* Responsive media query for tablets 768px and above */
 @media screen and (min-width:768px) {
 
@@ -134,10 +140,13 @@ section {
         text-align: center;
     }
 
+    .gold-outline {
+        border: solid 1px var(--misty-yellow);
+    }
+
     /* Shrinks all sections in containers in the body, when screen is 768+ */
     body section.container {
         width: 80%;
-        border: solid 1px var(--misty-yellow);
     }
 
     .hide-img {
@@ -148,9 +157,9 @@ section {
 /* Media query for screens sized 992px and up, laptops etc
  */
 @media screen and (min-width:992px) {
+
     body section.container {
         width: 100%;
-        border: solid 1px var(--misty-yellow);
     }
 
     body .container {
