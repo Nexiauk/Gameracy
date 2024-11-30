@@ -3,6 +3,7 @@
 
 /* Global styles */
 
+
 :root {
     --white-smoke: #f2f2f2;
     --black-smoke: #0d0d0d;
@@ -135,11 +136,24 @@ section {
 
     /* Shrinks all sections in containers in the body, when screen is 768+ */
     body section.container {
-        width: 75%;
+        width: 80%;
         border: solid 1px var(--misty-yellow);
     }
 
     .hide-img {
         display: block;
+    }
+}
+
+/* Media query for screens sized 992px and up, laptops etc
+ */
+@media screen and (min-width:992px) {
+    body section.container {
+        width: 100%;
+        border: solid 1px var(--misty-yellow);
+    }
+
+    body .container {
+        width: 80%;
     }
 }
