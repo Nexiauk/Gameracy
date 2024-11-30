@@ -33,18 +33,13 @@ footer {
     color: var(--white-smoke);
     display: flex;
     justify-content: center;
-    border: 1px solid var(--misty-yellow);
+    /* border: 1px solid var(--misty-yellow); */
 
 }
 
-.navbar .nav-link.active {
+.navbar .nav-link.active, .navbar .nav-link:hover {
     background-color: var(--misty-yellow);
     color: var(--smoky-black);
-}
-
-.navbar .nav-link:hover {
-    color: var(--smoky-black);
-    background-color: var(--misty-yellow);
 }
 
 .logo-text {
@@ -83,17 +78,17 @@ footer {
 
 .main-text {
     padding: 10px 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
-#benefits-section {
-    margin-bottom: 150px;
+section {
+    margin-bottom: 15px;
 }
 
 .sub-heading {
     font-family: 'Squada One', sans-serif;
     color: var(--black-smoke);
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 5px;
     margin-top: 5px;
 }
@@ -133,13 +128,14 @@ footer {
     }
 
     #hero-section {
+        width: 75%;
         margin-top: 3rem;
         border: solid 1px var(--misty-yellow);
     }
 
-    #benefits-section {
+    #benefits-section  {
+        width: 75%;
         margin-top: 3rem;
         border: solid 1px var(--misty-yellow);
     }
-
 }
