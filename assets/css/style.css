@@ -161,8 +161,4 @@ section {
     body section.container {
         width: 100%;
     }
-
-    body .container {
-        width: 80%;
-    }
 }
