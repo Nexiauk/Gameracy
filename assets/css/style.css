@@ -28,7 +28,6 @@ footer {
 
 .navbar {
     background-color: var(--black-smoke);
-
 }
 
 .navbar .nav-link {
@@ -113,7 +112,6 @@ section {
 }
 
 
-
 /* Responsive media queries for phones 320px and above */
 @media screen and (min-width:320px) {
     .hide-img {
@@ -144,21 +142,25 @@ section {
         border: solid 1px var(--misty-yellow);
     }
 
-    /* Shrinks all sections in containers in the body, when screen is 768+ */
     body section.container {
         width: 80%;
     }
+
+    /* Shrinks all sections in containers in the body, when screen is 768+ */
+    /* body section.container {
+        width: 80%;
+    } */
 
     .hide-img {
         display: block;
     }
 }
 
-/* Media query for screens sized 992px and up, laptops etc
- */
+/* Media query for screens sized 992px and up, laptops etc*/
 @media screen and (min-width:992px) {
 
     body section.container {
         width: 100%;
+        padding: 10px;
     }
 }
