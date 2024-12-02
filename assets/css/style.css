@@ -3,7 +3,7 @@
 
 /* Global styles */
 
-
+/* Variables for website colour scheme */
 :root {
     --white-smoke: #f2f2f2;
     --black-smoke: #0d0d0d;
@@ -63,6 +63,7 @@ footer {
     border: none;
 }
 
+/* styling for burger icon in nav bar on mobile view */
 .fa-solid.fa-bars {
     color: #f2f2f2;
     padding-right: 10px;
@@ -70,6 +71,7 @@ footer {
     font-size: 2rem;
 }
 
+/* Spacing between navbar and first section of main content */
 #hero-section {
     margin-top: 5px;
 }
@@ -88,6 +90,7 @@ section {
     margin-bottom: 25px;
 }
 
+/* font styling for section headers */
 .sub-heading {
     font-family: 'Squada One', sans-serif;
     color: var(--black-smoke);
@@ -119,14 +122,15 @@ section {
         display: none;
     }
 
-.gold-outline {
-    display: none;
-}
+    .gold-outline {
+        display: none;
+    }
 
 }
 
 
 /* Responsive media query for tablets 768px and above */
+
 @media screen and (min-width:768px) {
 
     /* Responsive navbar with justified nav-items. */
@@ -139,6 +143,8 @@ section {
         flex-grow: 1;
         text-align: center;
     }
+
+    /* class applied to rows for border outlines on tablet sizes and above */
 
     .gold-outline {
         border: solid 3px var(--misty-yellow);
