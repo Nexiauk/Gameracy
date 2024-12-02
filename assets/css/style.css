@@ -113,14 +113,16 @@ section {
 
 
 /* Responsive media queries for phones 320px and above */
+
 @media screen and (min-width:320px) {
     .hide-img {
         display: none;
     }
-}
 
 .gold-outline {
     display: none;
+}
+
 }
 
 
@@ -139,17 +141,12 @@ section {
     }
 
     .gold-outline {
-        border: solid 1px var(--misty-yellow);
+        border: solid 3px var(--misty-yellow);
     }
 
     body section.container {
         width: 80%;
     }
-
-    /* Shrinks all sections in containers in the body, when screen is 768+ */
-    /* body section.container {
-        width: 80%;
-    } */
 
     .hide-img {
         display: block;
@@ -163,4 +160,5 @@ section {
         width: 100%;
         padding: 10px;
     }
+
 }
