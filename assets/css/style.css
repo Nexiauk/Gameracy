@@ -118,6 +118,11 @@ section {
     font-size: 1.5rem;
 }
 
+/* Colour of D20 bulletpoints */
+.fa-solid.fa-dice-d20 {
+    color: var(--misty-yellow);
+}
+
 
 /* Responsive media queries for phones 320px and above */
 
