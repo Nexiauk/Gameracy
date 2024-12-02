@@ -82,12 +82,16 @@ img {
 }
 
 .main-text {
-    padding: 10px 20px;
     font-size: 1.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
 }
 
 section {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 /* font styling for section headers */
