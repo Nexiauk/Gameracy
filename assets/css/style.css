@@ -90,6 +90,10 @@ img {
     margin-bottom: 0;
 }
 
+.gold-text {
+    color: var(--misty-yellow);
+}
+
 section {
     margin-bottom: 15px;
 }
@@ -201,10 +205,6 @@ footer {
 /* Media query for 4k screens */
 @media screen and (min-width:2560px) {
 
-    body section.container {
-        width: 100%;
-    }
-
     .logo {
         width: 6rem;
         height: 6rem;
@@ -226,15 +226,9 @@ footer {
         font-size: 2rem;
     }
 
-    .hero-section {
-        margin: 0;
-    }
-
     #socials {
 
         font-size: 3rem;
     }
-
-
 
 }
