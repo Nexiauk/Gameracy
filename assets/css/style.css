@@ -54,8 +54,8 @@ footer {
 }
 
 .logo {
-    height: 50px;
-    width: 50px;
+    height: 3rem;
+    width: 3rem;
 
 }
 
@@ -175,5 +175,50 @@ section {
         width: 100%;
         padding: 10px;
     }
+}
+
+@media screen and (min-width:1440px) {
+    .navbar .nav-link {
+        font-size: 1.2rem;
+    }
+
+/* Media query for 4k screens */
+@media screen and (min-width:2560px) {
+
+    body section.container {
+        width: 100%;
+    }
+
+    .logo {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .logo-text {
+        font-size: 5rem;
+    }
+
+    .main-text {
+        font-size: 2rem;
+    }
+
+    .sub-heading {
+        font-size: 4rem;
+    }
+
+    .navbar .nav-link {
+        font-size: 2rem;
+    }
+
+    .hero-section {
+        margin: 0;
+    }
+
+    #socials {
+
+        font-size: 3rem;
+    }
+
+
 
 }
