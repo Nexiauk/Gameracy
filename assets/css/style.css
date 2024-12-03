@@ -107,6 +107,10 @@ section {
     background-color: var(--misty-yellow);
 }
 
+footer {
+    background-color: var(--black-smoke);
+}
+
 #socials {
     list-style-type: none;
     display: flex;
@@ -166,6 +170,17 @@ section {
     .hide-img {
         display: block;
     }
+
+    html body {
+        background: url("/assets/images/sparks-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .black-bg {
+        background-color: var(--black-smoke);
+    }
+
 }
 
 /* Media query for screens sized 992px and up, laptops etc*/
@@ -181,6 +196,7 @@ section {
     .navbar .nav-link {
         font-size: 1.2rem;
     }
+}
 
 /* Media query for 4k screens */
 @media screen and (min-width:2560px) {
