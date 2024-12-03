@@ -1,8 +1,6 @@
 /* Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&family=Squada+One&display=swap');
 
-/* Global styles */
-
 /* Variables for website colour scheme */
 :root {
     --white-smoke: #f2f2f2;
@@ -10,6 +8,7 @@
     --misty-yellow: #d9bb62;
 }
 
+/* Global styles */
 
 html body {
     background-color: var(--black-smoke);
@@ -23,7 +22,15 @@ header {
 
 footer {
     border: solid, 1px var(--white-smoke);
+    background-color: var(--black-smoke);
+}
 
+img {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 15px;
 }
 
 .navbar {
@@ -77,10 +84,6 @@ footer {
 }
 
 
-img {
-    width: 100%;
-}
-
 .main-text {
     font-size: 1.2rem;
     padding-left: 20px;
@@ -90,13 +93,11 @@ img {
     margin-bottom: 0;
 }
 
+
 .gold-text {
     color: var(--misty-yellow);
 }
 
-section {
-    margin-bottom: 15px;
-}
 
 /* font styling for section headers */
 .sub-heading {
@@ -111,8 +112,20 @@ section {
     background-color: var(--misty-yellow);
 }
 
-footer {
-    background-color: var(--black-smoke);
+.services-header {
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.services-text {
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
 }
 
 #socials {
@@ -178,6 +191,7 @@ footer {
     html body {
         background: url("/assets/images/sparks-bg.jpg");
         background-repeat: no-repeat;
+        background-position: center;
         background-size: cover;
     }
 
@@ -218,6 +232,13 @@ footer {
         font-size: 2rem;
     }
 
+    .services-text {
+        font-size: 2rem;
+    }
+
+    .services-header {
+        font-size: 2rem;
+    }
     .sub-heading {
         font-size: 4rem;
     }
