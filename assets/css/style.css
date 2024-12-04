@@ -47,7 +47,7 @@ section {
 .navbar .nav-link.active,
 .navbar .nav-link:hover {
     background-color: var(--misty-yellow);
-    color: var(--smoky-black);
+    color: var(--white-smoke);
     font-weight: bold;
 }
 
@@ -180,10 +180,6 @@ section {
         border: solid 3px var(--misty-yellow);
     }
 
-    body section.container {
-        width: 80%;
-    }
-
     .hide-img {
         display: block;
     }
@@ -204,18 +200,29 @@ section {
 @media screen and (min-width:992px) {
 
     body section.container {
-        width: 100%;
         padding: 10px;
     }
 }
 
-.services-text {
-    font-size: 1.2rem;
+
+@media screen and (min-width:1440px) {
+    .navbar-nav {
+        width: 70%;
+    }
+    
+    .navbar .nav-link {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (min-width:1440px) {
-    .navbar .nav-link {
-        font-size: 1.2rem;
+    #hero-section > .row > .column > p {
+        font-size: 1.8rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 0;
     }
 }
 
@@ -231,17 +238,23 @@ section {
         font-size: 5rem;
     }
 
+    #hero-section > .row > .column > p {
+        font-size: 2.3rem;
+    }
+
     .main-text {
         font-size: 2rem;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
         padding-top: 20px;
         padding-bottom: 20px;
         margin-bottom: 0;
     }
 
+
     .services-text {
         font-size: 2rem;
+        padding-bottom: 20px;
     }
 
 
