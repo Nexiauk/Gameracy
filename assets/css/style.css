@@ -245,7 +245,7 @@ section {
     }
 }
 
-/* Media query for 4k screens */
+/* Media query for 4k screens 2560px and above */
 @media screen and (min-width:2560px) {
 
     .logo {
@@ -273,7 +273,6 @@ section {
         padding-right: 50px;
         padding-top: 20px;
         padding-bottom: 20px;
-        margin-bottom: 0;
     }
 
 
