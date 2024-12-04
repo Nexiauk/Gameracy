@@ -229,7 +229,6 @@ section {
 @media screen and (min-width:1440px) {
     
     #hero-section {
-        margin-top: 10px;
         margin-bottom: 10px;
     }
    
@@ -242,7 +241,7 @@ section {
     }
     
     .navbar .nav-link {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
