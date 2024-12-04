@@ -87,7 +87,7 @@ section {
 
 /* Spacing between navbar and first section of main content */
 #hero-section {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 
@@ -229,7 +229,8 @@ section {
 @media screen and (min-width:1440px) {
     
     #hero-section {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
    
     #hero-section > .row > .column > p {
@@ -256,13 +257,7 @@ section {
     .logo-text {
         font-size: 5rem;
     }
-
-    #hero-section {
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    
-
+ 
     #hero-section > .row > .column > p {
         font-size: 2.3rem;
     }
