@@ -37,6 +37,7 @@ section {
     margin-bottom: 15px;
 }
 
+
 .navbar {
     background-color: var(--black-smoke);
 }
@@ -160,6 +161,14 @@ section {
     .gold-outline {
         display: none;
     }
+
+    #services-section {
+        padding: 0;
+    }
+    
+    #benefits-section  {
+        padding: 0;
+    }
 }
 
 
@@ -206,27 +215,34 @@ section {
     body section.container {
         padding: 10px;
     }
+
+    #services-section {
+        padding-left: 10px;
+    }
+    
+    #benefits-section  {
+        padding-right: 10px;
+    }
 }
 
 
 @media screen and (min-width:1440px) {
+    
+    #hero-section {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+   
+    #hero-section > .row > .column > p {
+        font-size: 1.6rem;
+    }
+
     .navbar-nav {
         width: 70%;
     }
     
     .navbar .nav-link {
-        font-size: 1.2rem;
-    }
-}
-
-@media screen and (min-width:1440px) {
-    #hero-section > .row > .column > p {
-        font-size: 1.8rem;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-bottom: 0;
+        font-size: 1.5rem;
     }
 }
 
@@ -241,6 +257,12 @@ section {
     .logo-text {
         font-size: 5rem;
     }
+
+    #hero-section {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
 
     #hero-section > .row > .column > p {
         font-size: 2.3rem;
