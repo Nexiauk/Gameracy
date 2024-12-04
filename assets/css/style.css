@@ -18,11 +18,15 @@ html body {
 
 header {
     border: solid 1px var(--white-smoke);
+    position: sticky;
+    top: 0;
 }
 
 footer {
     border: solid, 1px var(--white-smoke);
     background-color: var(--black-smoke);
+    position: sticky;
+    bottom: 0;
 }
 
 img {
