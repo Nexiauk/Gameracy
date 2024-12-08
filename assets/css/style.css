@@ -119,7 +119,7 @@ section {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
-    padding-bottom:0;
+    padding-bottom: 0;
     margin-bottom: 0;
     color: var(--misty-yellow);
 }
@@ -132,6 +132,26 @@ section {
     padding-top: 0px;
     margin-bottom: 0;
 }
+
+#games-section {
+    margin-top: 10px;
+}
+
+#games-section .zombies,
+#games-section .dark-castle {
+    padding-right: 25px;
+}
+
+#games-section .betrayal,
+#games-section .dark-sector {
+    padding-left: 25px;
+}
+
+.zombies, .betrayal {
+    padding-bottom: 50px;
+}
+
+
 
 /* Socials list in the footer */
 #socials {
@@ -165,8 +185,8 @@ section {
     #services-section {
         padding: 0;
     }
-    
-    #benefits-section  {
+
+    #benefits-section {
         padding: 0;
     }
 }
@@ -219,28 +239,32 @@ section {
     #services-section {
         padding-left: 10px;
     }
-    
-    #benefits-section  {
+
+    #benefits-section {
         padding-right: 10px;
     }
 }
 
 
 @media screen and (min-width:1440px) {
-    
+
     #hero-section {
         margin-bottom: 20px;
         margin-top: 20px;
     }
-   
-    #hero-section > .row > .column > p {
+
+    #hero-section>.row>.column>p {
         font-size: 1.6rem;
+    }
+
+    #games-section {
+        margin-top: 20px;
     }
 
     .navbar-nav {
         width: 70%;
     }
-    
+
     .navbar .nav-link {
         font-size: 1.2rem;
     }
@@ -257,8 +281,8 @@ section {
     .logo-text {
         font-size: 5rem;
     }
- 
-    #hero-section > .row > .column > p {
+
+    #hero-section>.row>.column>p {
         font-size: 2.3rem;
     }
 
