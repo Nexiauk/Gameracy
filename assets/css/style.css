@@ -20,6 +20,7 @@ header {
     border: solid 1px var(--white-smoke);
     position: sticky;
     top: 0;
+    z-index: 99;
 }
 
 footer {
@@ -135,22 +136,12 @@ section {
 
 #games-section {
     margin-top: 10px;
+    margin-bottom: 0;
 }
 
-#games-section .zombies,
-#games-section .dark-castle {
-    padding-right: 25px;
+#games-section .card {
+    margin-bottom: 25px;
 }
-
-#games-section .betrayal,
-#games-section .dark-sector {
-    padding-left: 25px;
-}
-
-.zombies, .betrayal {
-    padding-bottom: 50px;
-}
-
 
 
 /* Socials list in the footer */
