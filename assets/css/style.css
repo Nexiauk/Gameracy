@@ -9,7 +9,6 @@
 }
 
 /* Global styles */
-
 html body {
     background-color: var(--black-smoke);
     color: var(--white-smoke);
@@ -47,7 +46,6 @@ section {
     color: var(--white-smoke);
     display: flex;
     justify-content: center;
-
 }
 
 .navbar .nav-link.active,
@@ -69,7 +67,6 @@ section {
 .logo {
     height: 3rem;
     width: 3rem;
-
 }
 
 /* Removes outline from bootstrap toggler class */
@@ -90,7 +87,6 @@ section {
 #hero-section {
     margin-top: 10px;
 }
-
 
 .main-text {
     font-size: 1.2rem;
@@ -138,7 +134,6 @@ section {
     color: var(--white-smoke);
 }
 
-
 .card {
     border: solid 2px var(--white-smoke);
     background-color: var(--black-smoke);
@@ -157,7 +152,6 @@ section {
     color: var(--white-smoke);
 }
 
-
 /* Socials list in the footer */
 #socials {
     list-style-type: none;
@@ -174,7 +168,6 @@ section {
 .fa-solid.fa-dice-d20 {
     color: var(--misty-yellow);
 }
-
 
 /* Responsive media queries for phones 320px and above */
 @media screen and (min-width:320px) {
@@ -204,9 +197,9 @@ section {
     }
 }
 
-
 /* Responsive media query for tablets 768px and above */
 @media screen and (min-width:768px) {
+
     /* Responsive navbar with justified nav-items. */
     .navbar-nav {
         width: 80%;
@@ -219,7 +212,6 @@ section {
     }
 
     /* class applied to rows for border outlines on tablet sizes and above */
-
     .gold-outline {
         border: solid 3px var(--misty-yellow);
     }
@@ -243,87 +235,85 @@ section {
         margin-bottom: 15px;
     }
 
-/* Media query for screens sized 992px and up, laptops etc*/
-@media screen and (min-width:992px) {
+    /* Media query for screens sized 992px and up, laptops etc*/
+    @media screen and (min-width:992px) {
 
-    #services-section {
-        padding-left: 10px;
+        #services-section {
+            padding-left: 10px;
+        }
+
+        #benefits-section {
+            padding-right: 10px;
+        }
     }
 
-    #benefits-section {
-        padding-right: 10px;
-    }
-}
+    /* Media queries for screen sizes 1440px and up */
+    @media screen and (min-width:1440px) {
 
+        #hero-section {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
 
-@media screen and (min-width:1440px) {
+        #hero-section>.row>.column>p {
+            font-size: 1.6rem;
+        }
 
-    #hero-section {
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
+        #games-section {
+            margin-top: 20px;
+        }
 
-    #hero-section>.row>.column>p {
-        font-size: 1.6rem;
-    }
+        .navbar-nav {
+            width: 70%;
+        }
 
-    #games-section {
-        margin-top: 20px;
-    }
-
-    .navbar-nav {
-        width: 70%;
-    }
-
-    .navbar .nav-link {
-        font-size: 1.2rem;
-    }
-}
-
-/* Media query for 4k screens 2560px and above */
-@media screen and (min-width:2560px) {
-
-    .logo {
-        width: 6rem;
-        height: 6rem;
+        .navbar .nav-link {
+            font-size: 1.2rem;
+        }
     }
 
-    .logo-text {
-        font-size: 5rem;
+    /* Media query for 4k screens 2560px and above */
+    @media screen and (min-width:2560px) {
+
+        .logo {
+            width: 6rem;
+            height: 6rem;
+        }
+
+        .logo-text {
+            font-size: 5rem;
+        }
+
+        #hero-section>.row>.column>p {
+            font-size: 2.3rem;
+        }
+
+        .main-text {
+            font-size: 2rem;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .services-text {
+            font-size: 2rem;
+            padding-bottom: 20px;
+        }
+
+        .services-header {
+            font-size: 2rem;
+        }
+
+        .sub-heading {
+            font-size: 4rem;
+        }
+
+        .navbar .nav-link {
+            font-size: 2rem;
+        }
+
+        #socials {
+            font-size: 3rem;
+        }
     }
-
-    #hero-section>.row>.column>p {
-        font-size: 2.3rem;
-    }
-
-    .main-text {
-        font-size: 2rem;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-
-    .services-text {
-        font-size: 2rem;
-        padding-bottom: 20px;
-    }
-
-
-    .services-header {
-        font-size: 2rem;
-    }
-
-    .sub-heading {
-        font-size: 4rem;
-    }
-
-    .navbar .nav-link {
-        font-size: 2rem;
-    }
-
-    #socials {
-        font-size: 3rem;
-    }
-}
