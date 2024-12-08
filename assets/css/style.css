@@ -134,6 +134,18 @@ section {
     margin-bottom: 0;
 }
 
+.card-text, .card-title {
+    color: var(--white-smoke);
+}
+
+.card h3 {
+    color: var(--white-smoke)
+}
+
+.card-body {
+    background-color: var(--black-smoke);
+}
+
 
 /* Socials list in the footer */
 #socials {
@@ -154,7 +166,6 @@ section {
 
 
 /* Responsive media queries for phones 320px and above */
-
 @media screen and (min-width:320px) {
     .hide-img {
         display: none;
