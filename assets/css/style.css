@@ -234,6 +234,7 @@ section {
     #games-section .card {
         margin-bottom: 15px;
     }
+}
 
     /* Media query for screens sized 992px and up, laptops etc*/
     @media screen and (min-width:992px) {
