@@ -134,16 +134,27 @@ section {
     margin-bottom: 0;
 }
 
-.card-text, .card-title {
+.card-text {
     color: var(--white-smoke);
 }
 
+
+.card {
+    border: solid 2px var(--white-smoke);
+    background-color: var(--black-smoke);
+}
+
+.card-img-outline {
+    border: 1px solid var(--white-smoke);
+}
+
 .card h3 {
-    color: var(--white-smoke)
+    color: var(--misty-yellow);
 }
 
 .card-body {
     background-color: var(--black-smoke);
+    color: var(--white-smoke);
 }
 
 
