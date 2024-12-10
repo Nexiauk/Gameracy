@@ -154,6 +154,15 @@ section {
     border: solid 1px var(--misty-yellow)
 }
 
+#contact-us-section {
+    background: url("/assets/images/hero.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+}
+
 /* Socials list in the footer */
 #socials {
     list-style-type: none;
@@ -181,11 +190,10 @@ section {
         display: none;
     }
 
-    #services-section {
-        padding: 0;
-    }
-
-    #benefits-section {
+    #benefits-section,
+    #services-section,
+    #contact-us-section
+     {
         padding: 0;
     }
 
