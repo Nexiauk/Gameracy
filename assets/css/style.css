@@ -84,7 +84,8 @@ section {
 }
 
 /* Spacing between navbar and first section of main content */
-#hero-section, #contact-us-section {
+#hero-section,
+#contact-us-section {
     margin-top: 10px;
 }
 
@@ -158,8 +159,9 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: darken;
+    margin-bottom: 0;
 }
 
 input {
@@ -174,14 +176,14 @@ textarea {
 }
 
 #submit {
-width: 25%;
-margin-top: 10px;
-margin-bottom: 10px;
-background-color: var(--misty-yellow);
-color: var(--black-smoke);
-font-weight: bold;
-padding: 8px;
-border-radius: 5px;
+    width: 6rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--misty-yellow);
+    color: var(--black-smoke);
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
 }
 
 /* Socials list in the footer */
@@ -213,8 +215,7 @@ border-radius: 5px;
 
     #benefits-section,
     #services-section,
-    #contact-us-section
-     {
+    #contact-us-section {
         padding: 0;
     }
 
@@ -266,8 +267,8 @@ border-radius: 5px;
         margin-bottom: 15px;
     }
 
-    #inner-contact-padding {
-        padding: 3rem;
+    #contact-us-section {
+        margin-top: 16px;
     }
 }
 
@@ -351,5 +352,15 @@ border-radius: 5px;
 
     #socials {
         font-size: 3rem;
+    }
+
+
+    #contact-us-section input,
+    #contact-us-section textarea {
+        font-size: 1.5rem;
+    }
+
+    #submit {
+        width: 9rem;
     }
 }
