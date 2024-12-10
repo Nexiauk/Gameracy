@@ -165,6 +165,24 @@ section {
 
 input {
     width: 100%;
+    padding: 12px;
+    border: solid 2px var(--misty-yellow)
+}
+
+textarea {
+    width: 100%;
+}
+
+#submit {
+width: 20%;
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: var(--misty-yellow);
+color: var(--black-smoke);
+font-weight: bold;
+padding: 8px;
+border-radius: 5px;
+
 }
 
 /* Socials list in the footer */
