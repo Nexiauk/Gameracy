@@ -265,6 +265,10 @@ border-radius: 5px;
     #games-section .card {
         margin-bottom: 15px;
     }
+
+    #inner-contact-padding {
+        padding: 3rem;
+    }
 }
 
 /* Media query for screens sized 992px and up, laptops etc*/
