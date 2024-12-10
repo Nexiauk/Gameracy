@@ -134,13 +134,13 @@ section {
     color: var(--white-smoke);
 }
 
-.card {
-    border: solid 2px var(--white-smoke);
+#games-section .card {
+    border: solid 1px var(--misty-yellow);
     background-color: var(--black-smoke);
 }
 
 .card-img-outline {
-    border: 1px solid var(--white-smoke);
+    border: 1px solid var(--misty-yellow);
 }
 
 .card h3 {
@@ -150,6 +150,7 @@ section {
 .card-body {
     background-color: var(--black-smoke);
     color: var(--white-smoke);
+    border: solid 1px var(--misty-yellow)
 }
 
 /* Socials list in the footer */
