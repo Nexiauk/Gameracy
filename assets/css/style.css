@@ -84,9 +84,10 @@ section {
 }
 
 /* Spacing between navbar and first section of main content */
-#hero-section {
+#hero-section, #contact-us-section {
     margin-top: 10px;
 }
+
 
 .main-text {
     font-size: 1.2rem;
@@ -237,85 +238,85 @@ section {
     }
 }
 
-    /* Media query for screens sized 992px and up, laptops etc*/
-    @media screen and (min-width:992px) {
+/* Media query for screens sized 992px and up, laptops etc*/
+@media screen and (min-width:992px) {
 
-        #services-section {
-            padding-left: 10px;
-        }
-
-        #benefits-section {
-            padding-right: 10px;
-        }
+    #services-section {
+        padding-left: 10px;
     }
 
-    /* Media queries for screen sizes 1440px and up */
-    @media screen and (min-width:1440px) {
+    #benefits-section {
+        padding-right: 10px;
+    }
+}
 
-        #hero-section {
-            margin-bottom: 20px;
-            margin-top: 20px;
-        }
+/* Media queries for screen sizes 1440px and up */
+@media screen and (min-width:1440px) {
 
-        #hero-section>.row>.column>p {
-            font-size: 1.6rem;
-        }
-
-        #games-section {
-            margin-top: 20px;
-        }
-
-        .navbar-nav {
-            width: 70%;
-        }
-
-        .navbar .nav-link {
-            font-size: 1.2rem;
-        }
+    #hero-section {
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 
-    /* Media query for 4k screens 2560px and above */
-    @media screen and (min-width:2560px) {
-
-        .logo {
-            width: 6rem;
-            height: 6rem;
-        }
-
-        .logo-text {
-            font-size: 5rem;
-        }
-
-        #hero-section>.row>.column>p {
-            font-size: 2.3rem;
-        }
-
-        .main-text {
-            font-size: 2rem;
-            padding-left: 50px;
-            padding-right: 50px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-
-        .services-text {
-            font-size: 2rem;
-            padding-bottom: 20px;
-        }
-
-        .services-header {
-            font-size: 2rem;
-        }
-
-        .sub-heading {
-            font-size: 4rem;
-        }
-
-        .navbar .nav-link {
-            font-size: 2rem;
-        }
-
-        #socials {
-            font-size: 3rem;
-        }
+    #hero-section>.row>.column>p {
+        font-size: 1.6rem;
     }
+
+    #games-section {
+        margin-top: 20px;
+    }
+
+    .navbar-nav {
+        width: 70%;
+    }
+
+    .navbar .nav-link {
+        font-size: 1.2rem;
+    }
+}
+
+/* Media query for 4k screens 2560px and above */
+@media screen and (min-width:2560px) {
+
+    .logo {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .logo-text {
+        font-size: 5rem;
+    }
+
+    #hero-section>.row>.column>p {
+        font-size: 2.3rem;
+    }
+
+    .main-text {
+        font-size: 2rem;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .services-text {
+        font-size: 2rem;
+        padding-bottom: 20px;
+    }
+
+    .services-header {
+        font-size: 2rem;
+    }
+
+    .sub-heading {
+        font-size: 4rem;
+    }
+
+    .navbar .nav-link {
+        font-size: 2rem;
+    }
+
+    #socials {
+        font-size: 3rem;
+    }
+}
