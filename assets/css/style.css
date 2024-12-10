@@ -163,6 +163,10 @@ section {
     background-blend-mode: darken;
 }
 
+input {
+    width: 100%;
+}
+
 /* Socials list in the footer */
 #socials {
     list-style-type: none;
