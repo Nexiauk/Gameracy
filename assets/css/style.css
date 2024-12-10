@@ -27,6 +27,7 @@ footer {
     background-color: var(--black-smoke);
     position: sticky;
     bottom: 0;
+    z-index: 99;
 }
 
 img {
@@ -70,7 +71,6 @@ section {
 }
 
 /* Removes outline from bootstrap toggler class */
-
 .navbar-toggler {
     border: none;
 }
@@ -87,7 +87,6 @@ section {
 #hero-section, #contact-us-section {
     margin-top: 10px;
 }
-
 
 .main-text {
     font-size: 1.2rem;
@@ -166,15 +165,16 @@ section {
 input {
     width: 100%;
     padding: 12px;
-    border: solid 2px var(--misty-yellow)
+    border: solid 2px var(--misty-yellow);
 }
 
 textarea {
     width: 100%;
+    border: solid 2px var(--misty-yellow);
 }
 
 #submit {
-width: 20%;
+width: 25%;
 margin-top: 10px;
 margin-bottom: 10px;
 background-color: var(--misty-yellow);
@@ -182,7 +182,6 @@ color: var(--black-smoke);
 font-weight: bold;
 padding: 8px;
 border-radius: 5px;
-
 }
 
 /* Socials list in the footer */
