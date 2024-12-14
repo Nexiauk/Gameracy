@@ -71,7 +71,7 @@ section {
 }
 
 /* Removes outline from bootstrap toggler class */
-.navbar-toggler {
+navbar .navbar-toggler {
     border: none;
 }
 
