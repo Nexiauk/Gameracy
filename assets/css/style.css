@@ -139,6 +139,7 @@ section {
 
 #games-section .card {
     background-color: var(--black-smoke);
+    border: solid 1px var(--misty-yellow)
 }
 
 .card-img-outline {
@@ -152,6 +153,15 @@ section {
 .card-body {
     background-color: var(--black-smoke);
     color: var(--white-smoke);
+}
+
+#dc-list {
+    list-style-type: none;
+    color: var(--white-smoke);
+}
+
+#dc-list li {
+    padding-bottom: 20px;
 }
 
 /* Formatting for the contact us page */
@@ -356,6 +366,10 @@ textarea {
 
     #games-section {
         margin-bottom: 20px;
+    }
+
+    #games-section h3 {
+        font-size: 2.5rem;
     }
 
     #socials {
