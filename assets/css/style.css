@@ -135,16 +135,13 @@ section {
 /* Formatting for the Games page */
 .card-text {
     color: var(--white-smoke);
+    padding: 0;
 }
 
 #games-section .card {
     background-color: var(--black-smoke);
-    border: solid 1px var(--misty-yellow)
 }
 
-.card-img-outline {
-    border: 1px solid var(--misty-yellow);
-}
 
 .card h3 {
     color: var(--misty-yellow);
@@ -158,6 +155,7 @@ section {
 .game-list {
     list-style-type: none;
     color: var(--white-smoke);
+    padding: 0;
 }
 
 .game-list li {
@@ -283,6 +281,11 @@ textarea {
         margin-bottom: 15px;
     }
 
+    .card-img-outline {
+        border: 1px solid var(--misty-yellow);
+    }
+
+
     #contact-us-section {
         margin-top: 16px;
     }
@@ -296,6 +299,10 @@ textarea {
 
     #benefits-section {
         padding-right: 10px;
+    }
+
+    #games-section .card {
+        border: solid 1px var(--misty-yellow);
     }
 }
 
