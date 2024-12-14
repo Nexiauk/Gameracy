@@ -155,12 +155,12 @@ section {
     color: var(--white-smoke);
 }
 
-#dc-list {
+.game-list {
     list-style-type: none;
     color: var(--white-smoke);
 }
 
-#dc-list li {
+.game-list li {
     padding-bottom: 20px;
 }
 
