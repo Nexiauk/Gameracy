@@ -71,7 +71,7 @@ section {
 }
 
 /* Removes outline from bootstrap toggler class */
-navbar .navbar-toggler {
+.navbar .navbar-toggler {
     border: none;
 }
 
@@ -133,6 +133,8 @@ navbar .navbar-toggler {
 }
 
 /* Formatting for the Games page */
+
+
 .card-text {
     color: var(--white-smoke);
     padding: 0;
