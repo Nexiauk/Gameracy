@@ -332,6 +332,22 @@ textarea {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
+    #contact-us-section input,
+    #contact-us-section textarea,
+    #contact-us-section select {
+        font-size: 0.9rem;
+    }
+
+    #contact-us-section input,
+    #contact-us-section select {
+        padding: 0.5rem;
+    }
+
+    #option *,
+    #who * {
+        font-size: 0.5rem;
+    }
 }
 
 /* Media query for 4k screens 2560px and above */
@@ -389,12 +405,12 @@ textarea {
     #contact-us-section input,
     #contact-us-section textarea,
     #contact-us-section select {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     #contact-us-section input,
     #contact-us-section select {
-        padding: 1.5rem;
+        padding: 1.2rem;
         margin-bottom: 20px;
     }
 
