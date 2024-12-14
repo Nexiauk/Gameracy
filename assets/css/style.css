@@ -272,7 +272,7 @@ textarea {
         background: url("/assets/images/sparks-bg.avif");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size:cover;
     }
 
     .black-bg {
