@@ -177,13 +177,13 @@ section {
 
 input {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: solid 2px var(--misty-yellow);
 }
 
 select {
     width: 100%;
-    padding: 12px;
+    padding: 8px;
     border: solid 2px var(--misty-yellow);
 }
 
@@ -235,6 +235,7 @@ textarea {
     #contact-us-section {
         padding: 0;
     }
+
 
     #games-section {
         margin-top: 10px;
@@ -388,7 +389,7 @@ textarea {
     #contact-us-section input,
     #contact-us-section textarea,
     #contact-us-section select {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     #contact-us-section input,
@@ -397,8 +398,9 @@ textarea {
         margin-bottom: 20px;
     }
 
-    #service * {
-        font-size: 1.2rem;
+    #option *,
+    #who * {
+        font-size: 1rem;
     }
 
     #submit {

@@ -52,7 +52,7 @@
     <!-- Main content starts here -->
     <div class="container-fluid gx-0">
         <div class="row justify-content-center gx-0">
-            <div class="col-12 col-md-10 col-lg-7 col-xxl-5 gx-0">
+            <div class="col-12 col-md-10 col-xxl-5 gx-0">
                 <!-- Contact Us section -->
                 <section id="contact-us-section" class="container-fluid">
                     <div class="row gold-outline justify-content-center gx-0">
@@ -63,37 +63,47 @@
                             <form id="contact-us-form" method="GET" action="#">
 
                                 <div class="row justify-content-around gx-0">
-                                    <div class="col-12 col-md-8 col-lg-9 col-xxl-12">
+                                    <div class="col-12 col-md-5 col-xxl-12">
                                         <label hidden for="first-name">First Name</label><br>
                                         <input type="text" id="first-name" name="first-name" placeholder="First Name"
                                             required>
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-9 col-xxl-12">
+                                    <div class="col-12 col-md-5 col-xxl-12">
                                         <label hidden for="surname">Surname</label><br>
                                         <input type="text" id="surname" name="surname" placeholder="Surname" required>
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-9 col-xxl-12">
-                                        <label hidden for="school-name">School Name</label><br>
-                                        <input type="text" id="school-name" name="school-name"
-                                            placeholder="School Name">
-                                    </div>
-                                    <div class="col-12 col-md-8 col-lg-9 col-xxl-12">
+                                    <div class="col-12 col-md-5 col-xxl-12">
                                         <label hidden for="email">Email Address</label><br>
                                         <input type="email" id="email" name="email" placeholder="Email Address"
                                             required>
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-9 col-xxl-12">
+                                    <div class="col-12 col-md-5 col-xxl-12">
                                         <br>
-                                        <select aria-label="service" id="service" name="service" required>
-                                            <option value="choose" selected hidden disabled>Choose a Service</option>
-                                            <option value="taster">Staff Taster Session</option>
-                                            <option value="half-day">Half Day Gaming</option>
-                                            <option value="whole-day">Whole Day Gaming</option>
-                                            <option value="repeat">Weekly Repeat</option>
-                                            <option value="question">Ask a Question</option>
+                                        <select aria-label="who" id="who" name="who" required>
+                                            <option value="choose" selected hidden disabled>I am...</option>
+                                            <option value="taster">School Staff</option>
+                                            <option value="half-day">A Parent</option>
+                                            <option value="whole-day">A Student</option>
+                                            <option value="question">Other</option>
                                         </select>
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-9 col-xxl-12">
+                                    <div class="col-12 col-md-5 col-xxl-12">
+                                        <label hidden for="school-name">School Name</label><br>
+                                        <input type="text" id="school-name" name="school-name"
+                                            placeholder="School Name">
+                                    </div>
+                                    <div class="col-12 col-md-5 col-xxl-12">
+                                        <br>
+                                        <select aria-label="option" id="option" name="option" required>
+                                            <option value="choose" selected hidden disabled>Choose an option</option>
+                                            <option value="taster">Price Enquiry</option>
+                                            <option value="half-day">Book a Taster</option>
+                                            <option value="whole-day">Book a Service</option>
+                                            <option value="repeat">Ask a Question</option>
+                                            <option value="question">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 col-md-8 col-xxl-12">
                                         <label hidden for="enter-message">Enter your message here</label><br>
                                         <textarea rows="5" id="enter-message" name="enter-message"
                                             placeholder="Enter your message here" required></textarea>
