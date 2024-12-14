@@ -170,6 +170,12 @@ input {
     border: solid 2px var(--misty-yellow);
 }
 
+select {
+    width: 100%;
+    padding: 12px;
+    border: solid 2px var(--misty-yellow);
+}
+
 textarea {
     width: 100%;
     border: solid 2px var(--misty-yellow);
@@ -227,7 +233,6 @@ textarea {
     #games-section .card {
         margin-bottom: 25px;
     }
-
 }
 
 /* Responsive media query for tablets 768px and above */
@@ -356,8 +361,13 @@ textarea {
     }
 
     #contact-us-section input,
-    #contact-us-section textarea {
+    #contact-us-section textarea,
+    #contact-us-section select {
         font-size: 2rem;
+    }
+
+    #service * {
+        font-size: 1.2rem;
     }
 
     #submit {
@@ -371,7 +381,8 @@ textarea {
         margin-top: 100px;
     }
 
-    #contact-us-section input {
+    #contact-us-section input,
+    #contact-us-section select {
         padding: 1.5rem;
         margin-bottom: 20px;
     }

@@ -65,11 +65,12 @@
                                 <div class="row justify-content-around gx-0">
                                     <div class="col-12 col-md-8 col-lg-9 col-xxl-12">
                                         <label hidden for="first-name">First Name</label><br>
-                                        <input type="text" id="first-name" name="first-name" placeholder="First Name">
+                                        <input type="text" id="first-name" name="first-name" placeholder="First Name"
+                                            required>
                                     </div>
                                     <div class="col-12 col-md-8 col-lg-9 col-xxl-12">
                                         <label hidden for="surname">Surname</label><br>
-                                        <input type="text" id="surname" name="surname" placeholder="Surname">
+                                        <input type="text" id="surname" name="surname" placeholder="Surname" required>
                                     </div>
                                     <div class="col-12 col-md-8 col-lg-9 col-xxl-12">
                                         <label hidden for="school-name">School Name</label><br>
@@ -78,22 +79,29 @@
                                     </div>
                                     <div class="col-12 col-md-8 col-lg-9 col-xxl-12">
                                         <label hidden for="email">Email Address</label><br>
-                                        <input type="email" id="email" name="email" placeholder="Email Address">
+                                        <input type="email" id="email" name="email" placeholder="Email Address"
+                                            required>
                                     </div>
                                     <div class="col-12 col-md-8 col-lg-9 col-xxl-12">
-                                        <label hidden for="fname">First Name</label><br>
-                                        <input type="text" id="fname" name="fname" placeholder="First Name">
+                                        <label hidden for="service">Choose a Service</label><br>
+                                        <select id="service" name="service" required>
+                                            <option value="choose" selected hidden disabled>Choose a Service</option>
+                                            <option value="taster">Staff Taster Session</option>
+                                            <option value="half-day">Half Day Gaming</option>
+                                            <option value="whole-day">Whole Day Gaming</option>
+                                            <option value="repeat">Weekly Repeat</option>
+                                            <option value="question">Ask a Question</option>
+                                        </select>
                                     </div>
                                     <div class="col-12 col-md-8 col-lg-9 col-xxl-12">
                                         <label hidden for="enter-message">Enter your message here</label><br>
                                         <textarea rows="5" id="enter-message" name="enter-message"
-                                            placeholder="Enter your message here"></textarea>
+                                            placeholder="Enter your message here" required></textarea>
                                     </div>
                                     <div class="col-12 text-center">
                                         <input type="submit" value="Submit" id="submit">
                                     </div>
                                 </div>
-
                             </form>
                         </div>
                     </div>
