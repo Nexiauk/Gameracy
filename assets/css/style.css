@@ -38,7 +38,7 @@ section {
     margin-bottom: 15px;
 }
 
-
+/* Formatting for the header/navigation section */
 .navbar {
     background-color: var(--black-smoke);
 }
@@ -89,6 +89,7 @@ section {
     margin-top: 10px;
 }
 
+/* Formatting for the main text across all pages */
 .main-text {
     font-size: 1.2rem;
     padding-left: 20px;
@@ -111,7 +112,7 @@ section {
     background-color: var(--misty-yellow);
 }
 
-/* Specific formatting for the services section */
+/* Formatting for the services section */
 .services-header {
     font-size: 1.2rem;
     padding-left: 20px;
@@ -131,6 +132,7 @@ section {
     margin-bottom: 0;
 }
 
+/* Formatting for the Games page */
 .card-text {
     color: var(--white-smoke);
 }
@@ -152,6 +154,7 @@ section {
     color: var(--white-smoke);
 }
 
+/* Formatting for the contact us page */
 #contact-us-section {
     background: url("/assets/images/hero.avif");
     background-repeat: no-repeat;
@@ -235,7 +238,6 @@ textarea {
 
 /* Responsive media query for tablets 768px and above */
 @media screen and (min-width:768px) {
-
     /* Responsive navbar with justified nav-items. */
     .navbar-nav {
         width: 80%;
@@ -278,7 +280,6 @@ textarea {
 
 /* Media query for screens sized 992px and up, laptops etc*/
 @media screen and (min-width:992px) {
-
     #services-section {
         padding-left: 10px;
     }
@@ -290,7 +291,14 @@ textarea {
 
 /* Media queries for screen sizes 1440px and up */
 @media screen and (min-width:1440px) {
+    .navbar-nav {
+        width: 70%;
+    }
 
+    .navbar .nav-link {
+        font-size: 1.2rem;
+    }
+    
     #hero-section {
         margin-bottom: 20px;
         margin-top: 20px;
@@ -304,19 +312,14 @@ textarea {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-
-    .navbar-nav {
-        width: 70%;
-    }
-
-    .navbar .nav-link {
-        font-size: 1.2rem;
-    }
 }
 
 /* Media query for 4k screens 2560px and above */
 @media screen and (min-width:2560px) {
-
+    .navbar .nav-link {
+        font-size: 2rem;
+    }
+    
     .logo {
         width: 6rem;
         height: 6rem;
@@ -324,6 +327,10 @@ textarea {
 
     .logo-text {
         font-size: 5rem;
+    }
+
+    .sub-heading {
+        font-size: 4rem;
     }
 
     #hero-section>.row>.column>p {
@@ -347,12 +354,8 @@ textarea {
         font-size: 2rem;
     }
 
-    .sub-heading {
-        font-size: 4rem;
-    }
-
-    .navbar .nav-link {
-        font-size: 2rem;
+    #games-section {
+        margin-bottom: 20px;
     }
 
     #socials {
@@ -365,6 +368,12 @@ textarea {
         font-size: 2rem;
     }
 
+    #contact-us-section input,
+    #contact-us-section select {
+        padding: 1.5rem;
+        margin-bottom: 20px;
+    }
+
     #service * {
         font-size: 1.2rem;
     }
@@ -373,16 +382,5 @@ textarea {
         width: 10rem;
         margin-top: 40px;
         margin-bottom: 0;
-        padding: 1rem;
-    }
-
-    #games-section {
-        margin-bottom: 20px;
-    }
-
-    #contact-us-section input,
-    #contact-us-section select {
-        padding: 1.5rem;
-        margin-bottom: 20px;
     }
 }
