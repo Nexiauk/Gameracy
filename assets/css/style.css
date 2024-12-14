@@ -136,7 +136,6 @@ section {
 }
 
 #games-section .card {
-    border: solid 1px var(--misty-yellow);
     background-color: var(--black-smoke);
 }
 
@@ -151,7 +150,6 @@ section {
 .card-body {
     background-color: var(--black-smoke);
     color: var(--white-smoke);
-    border: solid 1px var(--misty-yellow)
 }
 
 #contact-us-section {
@@ -303,7 +301,8 @@ textarea {
     }
 
     #games-section {
-        margin-top: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .navbar-nav {
@@ -378,7 +377,7 @@ textarea {
     }
 
     #games-section {
-        margin-top: 100px;
+        margin-bottom: 20px;
     }
 
     #contact-us-section input,
