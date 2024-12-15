@@ -239,7 +239,6 @@ textarea {
         padding: 0;
     }
 
-
     #games-section {
         margin-top: 10px;
         margin-bottom: 0;
@@ -268,15 +267,16 @@ textarea {
         border: solid 3px var(--misty-yellow);
     }
 
-    .hide-img {
-        display: block;
-    }
-
+    /* Extra images appear on larger screen sizes */
     html body {
         background: url("/assets/images/sparks-bg.avif");
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
+    }
+    
+    .hide-img {
+        display: block;
     }
 
     .black-bg {
@@ -290,7 +290,6 @@ textarea {
     .card-img-outline {
         border: 1px solid var(--misty-yellow);
     }
-
 
     #contact-us-section {
         margin-top: 16px;
