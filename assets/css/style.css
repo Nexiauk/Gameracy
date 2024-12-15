@@ -133,8 +133,6 @@ section {
 }
 
 /* Formatting for the Games page */
-
-
 .card-text {
     color: var(--white-smoke);
     padding: 0;
@@ -214,6 +212,11 @@ textarea {
     color: var(--white-smoke);
     font-size: 1.5rem;
 }
+
+.fa-brands {
+    color: var(--white-smoke);
+}
+
 
 /* Colour of D20 bulletpoints */
 .fa-solid.fa-dice-d20 {
