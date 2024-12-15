@@ -85,7 +85,8 @@ section {
 
 /* Spacing between navbar and first section of main content */
 #hero-section,
-#contact-us-section {
+#contact-us-section,
+#success-section {
     margin-top: 10px;
 }
 
@@ -201,13 +202,19 @@ textarea {
     font-size: 1rem;
     padding: 8px;
     border-radius: 5px;
-    border: 1px solid var(--white-smoke)
+    border: 1px solid var(--white-smoke);
+    text-decoration: none;
 }
 
 #submit:hover,
 #home-btn:hover {
     background-color: var(--black-smoke);
     color: var(--misty-yellow);
+    font-weight: bolder;
+}
+
+#success-section>.row {
+padding-bottom: 10px;
 }
 
 /* Socials list in the footer */
@@ -430,9 +437,12 @@ textarea {
         font-size: 1rem;
     }
 
-    #submit {
+    #submit,
+    #home-btn {
         width: 10rem;
         margin-top: 40px;
         margin-bottom: 0;
+        font-size: 2rem;
+        padding: 20px;
     }
 }
