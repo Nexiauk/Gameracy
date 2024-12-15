@@ -127,9 +127,9 @@ section {
 .services-text {
     font-size: 1.2rem;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 10px;
     padding-bottom: 10px;
-    padding-top: 0px;
+    padding-top: 0;
     margin-bottom: 0;
 }
 
@@ -355,7 +355,7 @@ textarea {
     #contact-us-section input,
     #contact-us-section textarea,
     #contact-us-section select {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
 
     #contact-us-section input,
