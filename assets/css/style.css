@@ -52,7 +52,7 @@ section {
 .navbar .nav-link.active,
 .navbar .nav-link:hover {
     background-color: var(--misty-yellow);
-    color: var(--white-smoke);
+    color: var(--black-smoke);
     font-weight: bold;
 }
 
