@@ -163,7 +163,7 @@ section {
     padding-bottom: 20px;
 }
 
-/* Formatting for the contact us page */
+/* Formatting for the contact us and success pages */
 #contact-us-section {
     background: url("/assets/images/hero.avif");
     background-repeat: no-repeat;
@@ -214,7 +214,7 @@ textarea {
 }
 
 #success-section>.row {
-padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 /* Socials list in the footer */
@@ -267,6 +267,7 @@ padding-bottom: 10px;
 
 /* Responsive media query for tablets 768px and above */
 @media screen and (min-width:768px) {
+
     /* Responsive navbar with justified nav-items. */
     .navbar-nav {
         width: 80%;
@@ -288,9 +289,9 @@ padding-bottom: 10px;
         background: url("/assets/images/sparks-bg.avif");
         background-repeat: no-repeat;
         background-position: center;
-        background-size:cover;
+        background-size: cover;
     }
-    
+
     .hide-img {
         display: block;
     }
@@ -336,7 +337,7 @@ padding-bottom: 10px;
     .navbar .nav-link {
         font-size: 1.2rem;
     }
-    
+
     #hero-section {
         margin-bottom: 20px;
         margin-top: 20px;
@@ -373,7 +374,7 @@ padding-bottom: 10px;
     .navbar .nav-link {
         font-size: 2rem;
     }
-    
+
     .logo {
         width: 6rem;
         height: 6rem;
