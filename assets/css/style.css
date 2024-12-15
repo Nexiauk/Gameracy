@@ -190,15 +190,24 @@ textarea {
     border: solid 2px var(--misty-yellow);
 }
 
-#submit {
+#submit,
+#home-btn {
     width: 6rem;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: var(--misty-yellow);
     color: var(--black-smoke);
     font-weight: bold;
+    font-size: 1rem;
     padding: 8px;
     border-radius: 5px;
+    border: 1px solid var(--white-smoke)
+}
+
+#submit:hover,
+#home-btn:hover {
+    background-color: var(--black-smoke);
+    color: var(--misty-yellow);
 }
 
 /* Socials list in the footer */
@@ -348,7 +357,7 @@ textarea {
 
     #option *,
     #who * {
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 }
 
