@@ -305,7 +305,7 @@ textarea {
     }
 
     .card-img-outline {
-        border: 1px solid var(--misty-yellow);
+        border: 1px solid var(--white-smoke);
     }
 
     #contact-us-section {
@@ -324,7 +324,7 @@ textarea {
     }
 
     #games-section .card {
-        border: solid 1px var(--misty-yellow);
+        border: solid 1px var(--white-smoke);
     }
 }
 
