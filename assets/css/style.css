@@ -166,7 +166,7 @@ section {
 
 /* Formatting for the contact us and success pages */
 #contact-us-section {
-    background: url("/assets/images/hero.avif");
+    background: url("assets/images/hero.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
