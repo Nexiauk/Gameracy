@@ -23,7 +23,7 @@ header {
 }
 
 footer {
-    border: solid, 1px var(--white-smoke);
+    border: solid 1px var(--white-smoke);
     background-color: var(--black-smoke);
     position: sticky;
     bottom: 0;
