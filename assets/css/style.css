@@ -248,6 +248,11 @@ textarea {
     color: var(--white-smoke);
 }
 
+.fa-brands:hover {
+    color: var(--misty-yellow);
+    background-color: var(--black-smoke);
+}
+
 
 /* Colour of D20 bulletpoints */
 .fa-solid.fa-dice-d20 {
