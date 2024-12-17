@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&family=Squada+One&display=swap');
 
@@ -46,7 +53,11 @@ section {
 
 .navbar .nav-link {
     color: var(--white-smoke);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -221,7 +232,10 @@ textarea {
 /* Socials list in the footer */
 #socials {
     list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     text-align: center;
     padding: 5px;
@@ -275,7 +289,10 @@ textarea {
     }
 
     .nav-item {
+        -ms-flex-preferred-size: 0;
         flex-basis: 0;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
         flex-grow: 1;
         text-align: center;
     }
