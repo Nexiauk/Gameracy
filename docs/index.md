@@ -36,7 +36,6 @@ It was also designed to be responsive across mobiles, tablets and desktop screen
     * Parents who have heard about Gameracy and want to register interest for their child's school
     * Students wanting to see what Gameracy is about, what they will play and why
     <br>
-    <br>
 * ### User Stories
     * #### First Time Visitor Goals
         * As a first-time visitor I want to easily understand the purpose of the website, the organisation, and the benefits its services offer
@@ -44,13 +43,11 @@ It was also designed to be responsive across mobiles, tablets and desktop screen
         * I want to view testimonials or reviews to understand what existing customers think of the organisation and its services
         * I want to locate the organisation's social media links to view their followings and see if their content is appropriate
     <br>
-    <br>
     * #### Returning Visitor Goals
         * As a returning visitor, I want to easily locate the different types of services and understand the cost implications
         * I want to easily find a way to contact the organisation for more information, to register interest, and with any questions I might have
         * I want to see what games are involved in each service and why they have been chosen
         * I want to easily find out how to book in for the services on offer
-        <br>
         <br>
 * ### Design
     * #### Colour Scheme
@@ -85,7 +82,7 @@ It was also designed to be responsive across mobiles, tablets and desktop screen
         * [Desktop Games Wireframe](https://app.moqups.com/Wpx0gxFP8oTFwRA3hAv52TdenYCYANd4/view/page/a84a8febe?ui=0)
         * [Desktop Contact Us Wireframe](https://app.moqups.com/Wpx0gxFP8oTFwRA3hAv52TdenYCYANd4/view/page/a1bdbf46b?ui=0)
 
-    ---
+---
 
 ## **Features**
 * ### Responsive on all devices
@@ -99,19 +96,18 @@ It was also designed to be responsive across mobiles, tablets and desktop screen
 * ### Contact Form
     * The contact form has been built with several different types of fields, including dropdowns for any type of potential customer to be able to select themselves and the exact queries they want to send through to me and my company.
 
-    ---
+---
 
-    ## **Technologies Used**
-    * ### Languages Used
-        * HTML5 - link this
-        * CSS3 - link this
-        <br>
-    * ### Frameworks, Libraries & Programs
-        1. Bootstrap
-        2. Google fonts
-        3. Font Awesome
-        4. Git
-        5. GitHub
-        6. Moqups
-        7. Favicon.io
-        8. Visual Studio Code
+## **Technologies Used**
+* ### Languages Used
+    * HTML5 - link this
+    * CSS3 - link this
+* ### Frameworks, Libraries & Programs
+    1. Bootstrap
+    2. Google fonts
+    3. Font Awesome
+    4. Git
+    5. GitHub
+    6. Moqups
+    7. Favicon.io
+    8. Visual Studio Code
