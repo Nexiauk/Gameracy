@@ -1,7 +1,7 @@
 
 # **Gameracy Outreach Programme**
 ---
-![Website displaying on various screen sizes.](./assets/images/readme-images/gameracy-wireframes.png)<br>
+![Website displaying on various screen sizes.](/assets/images/readme-images/gameracy-wireframes.png)<br>
 [View the live project here](http://www.project.com)
 
 This website has been created as a project during my [Code Institute](https://codeinstitute.net/) Level 5 Web App Development course. 
@@ -62,7 +62,6 @@ It was also designed to be responsive across mobiles, tablets and desktop screen
             * Smoky Black: \#0D0D0D
         <br>
         <br>
-
     * #### Typography
     I used [fontjoy.com](http://www.fontjoy.com) to generate a scheme of fonts that go well together, that are accessible, and that are attractive.
          I took a little time with this because I didn't want fonts that contained double-storey letters, as they can be harder for people with specific learning difficulties to process.
