@@ -1,7 +1,7 @@
 
 # **Gameracy Outreach Programme**
 ---
-![Website displaying on various screen sizes.](gameracy-wireframes.png)
+![Website displaying on various screen sizes.](gameracy-wireframes.png)<br>
 [View the live project here](http://www.project.com)
 
 This website has been created as a project during my [Code Institute](https://codeinstitute.net/) Level 5 Web App Development course. 
