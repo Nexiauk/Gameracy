@@ -49,7 +49,7 @@ It was also designed to be responsive across mobiles, tablets and desktop screen
         <br>
 * ### Design
     * #### Colour Scheme
-        * The Gameracy logo ![Picture of a red and gold D20 with a sword and axe crossed behind it.](../assets/images/readme-images/logo.png) was dropped into [Adobe Colour](https://color.adobe.com/create/image) and the following colour palette was created: <br>
+        * The Gameracy logo ![Picture of a red and gold D20 with a sword and axe crossed behind it.](../assets/images/readme-images/logo.png) was dropped into [Adobe Colour](https://color.adobe.com/create/image) and the following colour palette was created: <br><br>
         ![Screenshot of a colour palette taken from Adobe Colour](../assets/images/readme-images/colour-palette.PNG)<br><br>
         * After using [webAIM's contrast checker](https://webaim.org/resources/contrastchecker/) to check for appropriate background/foreground contrast ratios, I chose to use a combination of:
             * Misted Yellow: \#D9BB62
@@ -61,7 +61,6 @@ It was also designed to be responsive across mobiles, tablets and desktop screen
         * I chose Cardo for my main Gameracy title that will sit in the header. It's fancy enough to convey a fantasy-genre feel without being too calligraphic, and is a sans-serif font, which is recommended for accessibility. It is bold and italic to make it stand out even more.
         * Fontjoy suggested Squada One for headings, another sans-serif font which contrasts nicely with Cardo.
         * Andika was chosen for the paragraph and nav bar text, as it is a sans-serif font that has been optimised for use as a literacy font, fitting with one of Gameracy's main objectives, which is to improve literacy.
-        <br>
     * #### Imagery
         * The hero image needed to be representative of tabletop gaming and literacy. 
         I also wanted it to have some colours that matched with the Gameracy logo, so I spent some time browsing through [freepik.com](https://www.freepik.com/). The image I decided upon was visually attractive, matched the site's colour scheme, and contained all the desired elements that embody Gameracy: gaming, books and writing implements.
