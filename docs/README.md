@@ -116,7 +116,7 @@ I created my wireframes using [moqups.com](https://moqups.com) - a streamlined a
 
 ## **Features**
 ### Responsiveness
-* The Gameracy website has been designed mobile-first, built initially to look good on a screen 320px wide in Google Chrome. It is responsive across various screens and devices up to 4k (2560+). This has been achieved using Bootstrap grid sizes as well as CSS3 media queries to ensure the layout changes approriately and reflows in an attractive manner when the screen is resized.
+* The Gameracy website has been designed mobile-first, built initially to look good on a screen 320px wide in Google Chrome. It is responsive across various screens and devices up to 4k (2560+). This has been achieved using Bootstrap grid sizes as well as CSS3 media queries to ensure the layout changes appropriately and reflows in an attractive manner when the screen is resized.
 ### Header
 * The header consists of a navbrand on the left with the Gameracy logo and name, and a navbar on the right. Clicking on the word 'Gameracy' will always bring the user back to the home page. The navbar on the right collapses on mobile screens to become a burger icon that opens and closes a dropdown nav. The original wireframe had each navlink with an outline box of Misted Yellow, but the final design does not as it looks cleaner without it. Each nav-link has a hover colour and the text changes color accordingly to keep the contrast ratio accessible.
     ![Screenshot of the navbar at full-screen width](../assets/images/readme-images/navbar-big.png)
