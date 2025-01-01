@@ -20,6 +20,7 @@ This website has been created as a project during my [Code Institute](https://co
 * [Features](#features)
     * [Responsiveness](#responsiveness)
     * [Header](#header)
+    * [Footer](#footer)
     * [Interactive Elements](#interactive-elements)
     * [Contact Form](#contact-form)
 * [Future Features]()
@@ -116,16 +117,33 @@ I created my wireframes using [moqups.com](https://moqups.com) - a streamlined a
 
 ## **Features**
 ### Responsiveness
-* The Gameracy website has been designed mobile-first, built initially to look good on a screen 320px wide in Google Chrome. It is responsive across various screens and devices up to 4k (2560+). This has been achieved using Bootstrap grid sizes as well as CSS3 media queries to ensure the layout changes appropriately and reflows in an attractive manner when the screen is resized.
+The Gameracy website has been designed mobile-first, built initially to look good on a screen 320px wide in Google Chrome. It is responsive across various screens and devices up to 4k (2560+). This has been achieved using Bootstrap grid sizes as well as CSS3 media queries to ensure the layout changes appropriately and reflows in an attractive manner when the screen is resized. Depending on the screen size, styles and images will also appear/disappear to ensure that the site looks clean and clutter-free on smaller screens, but the empty space is filled and interesting on larger screens.
 ### Header
-* The header consists of a navbrand on the left with the Gameracy logo and name, and a navbar on the right. Clicking on the word 'Gameracy' will always bring the user back to the home page. The navbar on the right collapses on mobile screens to become a burger icon that opens and closes a dropdown nav. The original wireframe had each navlink with an outline box of Misted Yellow, but the final design does not as it looks cleaner without it. Each nav-link has a hover colour and the text changes color accordingly to keep the contrast ratio accessible.
+* The header consists of a navbrand on the left with the Gameracy logo and name (font: Cardo), and a navbar on the right. 
+* Clicking on the word 'Gameracy' will always bring the user back to the home page. 
+* The navbar on the right collapses on mobile screens to become a burger icon that opens and closes a vertical dropdown nav. 
+* The original wireframe had each nav-link with an outline box of Misted Yellow, but the final design does not, as it looks cleaner without it. 
+* Each nav-link (font: Andika) has a hover colour and an active colour; the text changes color accordingly to keep the contrast ratio accessible.
+* The header is sticky, so that whenever the user scrolls they will always have access to the navbar.
     ![Screenshot of the navbar at full-screen width](../assets/images/readme-images/navbar-big.png)
     ![Screenshot of the navbar on a mobile screen with burger icon](../assets/images/readme-images/navbar-small.png)
+### Footer
+The footer contains links to my different social media platforms (or will when I have them) and remains sticky so that when users scroll, they always have access to click on each platform and find out more about me and my business, and what other people think of Gameracy.
 ### Interactive Elements
-* Interactivity has been achieved by ensuring that effects are applied when certain elements are hovered over, such as the nav links, the social media icons, and any buttons that appear. I ensured that the hover effect colours were in keeping with the overall colour scheme of the site.
+Interactivity has been achieved by ensuring that effects are applied when certain elements are hovered over, such as the nav links, the social media icons, and any buttons that appear. I ensured that the hover effect colours were in keeping with the overall colour scheme of the site and that text colour changed to keep the contrast ratios accessible.
 ### Contact Form
-* The contact form has been built with several different types of fields, including dropdowns for any type of potential customer to be able to select themselves and the exact queries they want to send through to me and my company.
+The contact form has been built with several different types of fields, including dropdowns for any type of potential customer to be able to select themselves and the exact queries they want to send through to me and my company. They can use the form to make booking enquiries and will be taken to a success page after clicking the submit button. Some fields are required and others are not.
 
+---
+
+## **Future Features**
+In the future I would like to implement the following features:
+* An interactive booking system with a calendar, and list of services that allows school staff to directly book in. The services would be a lot more detailed, outlining clearly exactly what experience you are getting for your money.
+* A login system so that only school staff can use the booking system
+* On the games page I would like each card image to be replaced with a carousel, so that visitors can cycle through a collection of images showcasing each game in its full glory.
+* I would also like to add audio to each game card, showcasing the sound effects and immersive theme tunes that accompany each gameplaying experience
+* I would like to add a testimonials section on the contact page, so that visitors can easily see and scroll through customer reviews about my company
+* I would like to add information somewhere about myself as the founder and the award my programme won.
 ---
 
 ## **Technologies and Languages**
