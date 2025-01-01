@@ -23,7 +23,7 @@ This website has been created as a project during my [Code Institute](https://co
     * [Footer](#footer)
     * [Interactive Elements](#interactive-elements)
     * [Contact Form](#contact-form)
-* [Future Features]()
+* [Future Features](#future-features)
 * [Testing]()
     * [User Story Testing]()
     * [Automated Testing]()
@@ -90,11 +90,12 @@ It was also designed to be responsive across mobiles, tablets and desktop screen
     * White Smoke: \#F2F2F2
     * Smoky Black: \#0D0D0D
 ### Typography
-I used [fontjoy.com](http://www.fontjoy.com) to generate a scheme of fonts that go well together, that are accessible, and that are attractive.
-I took a little time with this because I didn't want fonts that contained double-storey letters, as they can be harder for people with specific learning difficulties to process. <br>
-* I chose Cardo for my main Gameracy title that will sit in the header. It's fancy enough to convey a fantasy-genre feel without being too calligraphic, and is a sans-serif font, which is recommended for accessibility. It is bold and italic to make it stand out even more.
-* Fontjoy suggested Squada One for headings, another sans-serif font which contrasts nicely with Cardo.
-* Andika was chosen for the paragraph and nav bar text, as it is a sans-serif font that has been optimised for use as a literacy font, fitting with one of Gameracy's main objectives, which is to improve literacy.
+* I used [fontjoy.com](http://www.fontjoy.com) to generate a scheme of fonts that go well together, that are accessible, and that are attractive.
+I took a little time with this because I didn't want fonts that contained double-storey letters, as they can be harder for people with specific learning difficulties to process.
+    * I chose Cardo for my main Gameracy title that will sit in the header. It's fancy enough to convey a fantasy-genre feel without being too calligraphic, and is a sans-serif font, which is recommended for accessibility. It is bold and italic to make it stand out even more.
+    * Fontjoy suggested Squada One for headings, another sans-serif font which contrasts nicely with Cardo.
+    * Andika was chosen for the paragraph and nav bar text, as it is a sans-serif font that has been optimised for use as a literacy font, fitting with one of Gameracy's main objectives, which is to improve literacy.
+* I used [Font Awesome](https://fontawesome.com/) to generate D20 dice to use as bulletpoints, I styled these in Misted Yellow.
 ### Imagery
 * The hero image needed to be representative of tabletop gaming and literacy. 
 I also wanted it to have some colours that matched with the Gameracy logo, so I spent some time browsing through [freepik.com](https://www.freepik.com/). The image I decided upon was visually attractive, matched the site's colour scheme, and contained all the desired elements that embody Gameracy: gaming, books and writing implements.
@@ -141,7 +142,7 @@ In the future I would like to implement the following features:
 * An interactive booking system with a calendar, and list of services that allows school staff to directly book in. The services would be a lot more detailed, outlining clearly exactly what experience you are getting for your money.
 * A login system so that only school staff can use the booking system
 * On the games page I would like each card image to be replaced with a carousel, so that visitors can cycle through a collection of images showcasing each game in its full glory.
-* I would also like to add audio to each game card, showcasing the sound effects and immersive theme tunes that accompany each gameplaying experience
+* I would also like to add audio to each game card, showcasing the sound effects and immersive theme tunes that accompany each gameplaying experience.
 * I would like to add a testimonials section on the contact page, so that visitors can easily see and scroll through customer reviews about my company
 * I would like to add information somewhere about myself as the founder and the award my programme won.
 ---
