@@ -41,7 +41,6 @@ It was also designed to be responsive across mobiles, tablets and desktop screen
         * I want to navigate the website easily, with a clear, logical structure to find content
         * I want to view testimonials or reviews to understand what existing customers think of the organisation and its services
         * I want to locate the organisation's social media links to view their followings and see if their content is appropriate
-    <br>
     * #### Returning Visitor Goals
         * As a returning visitor, I want to easily locate the different types of services and understand the cost implications
         * I want to easily find a way to contact the organisation for more information, to register interest, and with any questions I might have
