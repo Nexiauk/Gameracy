@@ -1,6 +1,5 @@
 
 # **Gameracy Outreach Programme**
----
 ![Website displaying on various screen sizes.](../assets/images/readme-images/gameracy-wireframes.png)<br>
 [View the live project here](http://www.project.com)
 
