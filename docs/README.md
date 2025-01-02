@@ -225,7 +225,7 @@ In the future I would like to implement the following features:
 ---
 
 ## **Credits**
-## Media
-## Code
-## Acknowledgements
-## Creator Comments
+### Media
+### Code
+### Acknowledgements
+### Creator Comments
