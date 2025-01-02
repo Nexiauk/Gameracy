@@ -43,7 +43,7 @@ This website has been created as a project during my [Code Institute](https://co
     * [Cloning a repository](#cloning-a-repository)
 * [Credits](#credits)
     * [Media](#media)
-    * [Code](#code)
+    * [Code Help](#code-help)
     * [Acknowledgements](#acknowledgements)
     * [Creator Comment](#creator-comments)
 
@@ -226,6 +226,22 @@ In the future I would like to implement the following features:
 
 ## **Credits**
 ### Media
-### Code
+* Hero Image - [Freepik.com](https://www.freepik.com/)
+* Sparks background - [Starline on Freepik.com](https://www.freepik.com/)
+* Benefits header imager - [Freepik.com](https://www.freepik.com/)
+* Our Services header image - [Freepik.com](https://www.freepik.com/)
+* Contact success image - [Freepik.com](https://www.freepik.com/)
+* Favicon - [favicon.io](https://favicon.io/)
+* Gameracy icon - created by myself and used on Leicester College Moodle/LC marketing materials
+### Code help
+* CSS - [w3schools.com](https://www.w3schools.com/css/default.asp)
+* HTML - [w3schools.com](https://www.w3schools.com/html/default.asp)
+* Bootstrap - [getbootstrap.com](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 ### Acknowledgements
+* Justified nav items on tablet size and above - [bootstrapshuffle](https://bootstrapshuffle.com/classes/navs/nav-justified)
+* Dark, semi-opaque background [stackoverflow](https://stackoverflow.com/questions/12605908/change-background-image-opacity)
+* Styling options of a select element [stackoverflow](https://stackoverflow.com/questions/7208786/how-to-style-the-option-of-an-html-select-element)
+* Label doesn't work for select element [dequeuniversity](https://dequeuniversity.com/rules/axe/4.10/select-name)
+* Relative and absolute filepaths for published images [github](https://github.com/orgs/community/discussions/83620)
+* Placeholder option value in dropdowns [educative](https://www.educative.io/answers/how-to-make-select-mandatory-in-html)
 ### Creator Comments
