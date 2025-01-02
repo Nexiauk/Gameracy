@@ -35,13 +35,17 @@ This website has been created as a project during my [Code Institute](https://co
         * [Features]()
         * [Browser]()
         * [Responsiveness]()
-* [Technologies and Languages](#technologies-used)
+* [Technologies and Languages](#technologies-and-languages)
     * [Languages](#languages)
     * [Frameworks, Libraries and Programs](#frameworks-libraries--programs)
 * [Deployment](#deployment)
-    * [Creating a Fork]()
-    * [Cloning a repository]()
-* [Credits]()
+    * [Creating a Fork](#creating-a-fork)
+    * [Cloning a repository](#cloning-a-repository)
+* [Credits](#credits)
+    * [Media](#media)
+    * [Code](#code)
+    * [Acknowledgements](#acknowledgements)
+    * [Creator Comment](#creator-comments)
 
 ## **Inspiration**
 I work in a library at an FE college where I run an award-winning tabletop gaming programme for disengaged 14-18 year olds. 
@@ -52,6 +56,8 @@ Inspired by my desire to one day  offer Gameracy as an outreach programme in oth
 The outreach programme's website was designed hugely with accessibility in mind, as this is something I feel very strongly about. 
 It was also designed to be responsive across mobiles, tablets and desktop screens, making it easy to navigate for potential customers.
 
+[Back to Table of Contents](#table-of-contents)
+
 ---
 
 ## **Website Goals**
@@ -59,6 +65,8 @@ It was also designed to be responsive across mobiles, tablets and desktop screen
 * Clearly outline the benefits of tabletop gaming
 * Make it easy to find what services are on offer
 * Ensure that potential customers can convert into actual customers by easily being able to contact me
+
+[Back to Table of Contents](#table-of-contents)
 
 ---
 
@@ -82,6 +90,9 @@ It was also designed to be responsive across mobiles, tablets and desktop screen
 * I want to easily find a way to contact the organisation for more information, to register interest, and with any questions I might have
 * I want to see what games are involved in each service and why they have been chosen
 * I want to easily find out how to book in for the services on offer
+
+
+[Back to Table of Contents](#table-of-contents)
 
 ## **Design**
 ### Colour Scheme
@@ -116,6 +127,9 @@ I created my wireframes using [moqups.com](https://moqups.com) - a streamlined a
 * [Desktop Games Wireframe](https://app.moqups.com/Wpx0gxFP8oTFwRA3hAv52TdenYCYANd4/view/page/a84a8febe?ui=0)
 * [Desktop Contact Us Wireframe](https://app.moqups.com/Wpx0gxFP8oTFwRA3hAv52TdenYCYANd4/view/page/a1bdbf46b?ui=0)
 
+
+[Back to Table of Contents](#table-of-contents)
+
 ---
 
 ## **Features**
@@ -145,6 +159,7 @@ The contact form has been built with several different types of fields, includin
 
 ![Screenshot of a dropdown field on the contact form](../assets/images/readme-images/contact-form1.png) ![Screenshot of fields being required on the form](../assets/images/readme-images/contact-form2.png)
 
+[Back to Table of Contents](#table-of-contents)
 
 ---
 
@@ -157,6 +172,9 @@ In the future I would like to implement the following features:
 * I would like to add a testimonials section on the contact page, so that visitors can easily see and scroll through customer reviews about my company
 * I would like to add information somewhere about myself as the founder and the award my programme won.
 
+
+[Back to Table of Contents](#table-of-contents)
+
 ---
 
 ## **Technologies and Languages**
@@ -168,10 +186,14 @@ In the future I would like to implement the following features:
 2. Google fonts
 3. Font Awesome
 4. Git
-5. GitHub
+5. GitHub Desktop
 6. Moqups
 7. Favicon.io
 8. Visual Studio Code
+9. Spotify - for all the tunes
+
+
+[Back to Table of Contents](#table-of-contents)
 
 ---
 
@@ -190,9 +212,20 @@ In the future I would like to implement the following features:
 4. Tick **Copy the main branch only**.
 5. Click the **Create a Fork** button.
 6. A new repository should appear in your GitHub with the name you chose.
-### Cloning Repository
+### Cloning a Repository
 1. Navigate to the repository.
 2. Click on the **Code** button on top of the repository and copy the link.
 3. Open Git Bash and change the working directory to the location where you want the cloned directory.
 4. Type git clone and then paste the link.
 5. Press Enter to create your local clone.
+
+
+[Back to Table of Contents](#table-of-contents)
+
+---
+
+## **Credits**
+## Media
+## Code
+## Acknowledgements
+## Creator Comments
