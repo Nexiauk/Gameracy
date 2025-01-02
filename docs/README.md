@@ -126,14 +126,23 @@ The Gameracy website has been designed mobile-first, built initially to look goo
 * The original wireframe had each nav-link with an outline box of Misted Yellow, but the final design does not, as it looks cleaner without it. 
 * Each nav-link (font: Andika) has a hover colour and an active colour; the text changes color accordingly to keep the contrast ratio accessible.
 * The header is sticky, so that whenever the user scrolls they will always have access to the navbar.
-    ![Screenshot of the navbar at full-screen width](../assets/images/readme-images/navbar-big.png)
-    ![Screenshot of the navbar on a mobile screen with burger icon](../assets/images/readme-images/navbar-small.png)
+
+![Screenshot of the navbar at full-screen width](../assets/images/readme-images/navbar-big.png)
+![Screenshot of the navbar on a mobile screen with burger icon](../assets/images/readme-images/navbar-small.png)
 ### Footer
 The footer contains links to my different social media platforms (or will when I have them) and remains sticky so that when users scroll, they always have access to click on each platform and find out more about me and my business, and what other people think of Gameracy.
+
+![Screenshot of the footer with social media icons](../assets/images/readme-images/footer.png)
 ### Interactive Elements
 Interactivity has been achieved by ensuring that effects are applied when certain elements are hovered over, such as the nav links, the social media icons, and any buttons that appear. I ensured that the hover effect colours were in keeping with the overall colour scheme of the site and that text colour changed to keep the contrast ratios accessible.
+
+![Screenshot of button colours normally](../assets/images/readme-images/button.png) ![Screenshot of button colours when button is hovered over](../assets/images/readme-images/button-hover.png)
+
 ### Contact Form
 The contact form has been built with several different types of fields, including dropdowns for any type of potential customer to be able to select themselves and the exact queries they want to send through to me and my company. They can use the form to make booking enquiries and will be taken to a success page after clicking the submit button. Some fields are required and others are not.
+
+![Screenshot of a dropdown field on the contact form](../assets/images/readme-images/contact-form1.png) ![Screenshot of fields being required on the form](../assets/images/readme-images/contact-form2.png)
+
 
 ---
 
