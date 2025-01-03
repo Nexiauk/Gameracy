@@ -24,13 +24,13 @@ This website has been created as a project during my [Code Institute](https://co
     * [Interactive Elements](#interactive-elements)
     * [Contact Form](#contact-form)
 * [Future Features](#future-features)
-* [Testing]()
-    * [User Story Testing]()
-    * [Automated Testing]()
-        * [The W3C Markup Validation Service]()
-        * [The W3C CSS Validation Service]()
-        * [The WAVE Webb Accessibility Evalusation Tool]()
-    * [Chrome Lighthouse]()
+* [Testing](#testing)
+    * [User Story Testing](#user-story-testing)
+    * [Automated Testing](#automated-testing)
+        * [The W3C Markup Validation Service](#the-w3c-markup-validation-service)
+        * [The W3C CSS Validation Service](#the-w3c-css-validation-service)
+        * [The WAVE Web Accessibility Evaluation Tool](#the-wave-webb-accessibility-evaluation-tool)
+        * [Chrome Lighthouse](#chrome-lighthouse)
     * [Manual Testing]()
         * [Features]()
         * [Browser]()
@@ -177,6 +177,25 @@ In the future I would like to implement the following features:
 
 ---
 
+## **Testing**
+### User Story Testing
+#### As a first-time visitor I want to easily understand the purpose of the website, the organisation, and the benefits its services offer
+* 
+#### I want to navigate the website easily, with a clear, logical structure to find content
+#### I want to view testimonials or reviews to understand what existing customers think of the organisation and its services
+#### I want to locate the organisation's social media links to view their followings and see if their content is appropriate
+#### Returning Visitor Goals
+* As a returning visitor, I want to easily locate the different types of services and understand the cost implications
+* I want to easily find a way to contact the organisation for more information, to register interest, and with any questions I might have
+* I want to see what games are involved in each service and why they have been chosen
+* I want to easily find out how to book in for the services on offer
+### Automated Testing
+* #### The W3C Markup Validation Service
+* #### The W3C CSS Validation Service
+* #### The WAVE Webb Accessibility Evaluation Tool
+* #### Chrome Lighthouse
+### Manual Testing
+
 ## **Technologies and Languages**
 ### Languages
 * HTML5 - link this
@@ -238,10 +257,11 @@ In the future I would like to implement the following features:
 * HTML - [w3schools.com](https://www.w3schools.com/html/default.asp)
 * Bootstrap - [getbootstrap.com](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 ### Acknowledgements
+* README file ideas - [Dayana-N](https://github.com/Dayana-N/portfolio-project-1?tab=readme-ov-file) 
 * Justified nav items on tablet size and above - [bootstrapshuffle](https://bootstrapshuffle.com/classes/navs/nav-justified)
-* Dark, semi-opaque background [stackoverflow](https://stackoverflow.com/questions/12605908/change-background-image-opacity)
-* Styling options of a select element [stackoverflow](https://stackoverflow.com/questions/7208786/how-to-style-the-option-of-an-html-select-element)
-* Label doesn't work for select element [dequeuniversity](https://dequeuniversity.com/rules/axe/4.10/select-name)
-* Relative and absolute filepaths for published images [github](https://github.com/orgs/community/discussions/83620)
-* Placeholder option value in dropdowns [educative](https://www.educative.io/answers/how-to-make-select-mandatory-in-html)
+* Dark, semi-opaque background - [stackoverflow](https://stackoverflow.com/questions/12605908/change-background-image-opacity)
+* Styling options of a select element - [stackoverflow](https://stackoverflow.com/questions/7208786/how-to-style-the-option-of-an-html-select-element)
+* Label doesn't work for select element - [dequeuniversity](https://dequeuniversity.com/rules/axe/4.10/select-name)
+* Relative and absolute filepaths for published images - [github](https://github.com/orgs/community/discussions/83620)
+* Placeholder option value in dropdowns - [educative](https://www.educative.io/answers/how-to-make-select-mandatory-in-html)
 ### Creator Comments
