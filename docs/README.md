@@ -182,15 +182,23 @@ In the future I would like to implement the following features:
 #### As a first-time visitor I want to easily understand the purpose of the website, the organisation, and the benefits its services offer
 * The hero section of the home-page features an image that showcases both gaming and literacy elements. The text also describes what Gameracy is, mentions a team of DBS-checked staff and describes the experience on offer.
 * There is a clearly-definied benefits section with a list of benefits to tabletop gaming.
-* The services section briefly outlines the type of services the organisation offers, and recommends using the contact form to get in touch.
+* The services section briefly outlines the type of services the organisation offers, and recommends using the contact form to get in touch. The words **contact us** are have been linked to the contact form. It also also always accessible via the sticky navigation bar.
 #### I want to navigate the website easily, with a clear, logical structure to find content
+* There is a visible navigation bar that is sticky, so users can easily browse to another area of the site without the need to scroll back to the top. On a mobile, the navigation bar is collapsed and uses a recognisable burger icon to trigger a vertical nav bar.
 #### I want to view testimonials or reviews to understand what existing customers think of the organisation and its services
+* The sticky footer is always on display when a user scrolls, so at any time they can easily navigate to one of the company's social media channels. A future update would include a testimonials sidebar on the contact us page.
 #### I want to locate the organisation's social media links to view their followings and see if their content is appropriate
-#### Returning Visitor Goals
-* As a returning visitor, I want to easily locate the different types of services and understand the cost implications
-* I want to easily find a way to contact the organisation for more information, to register interest, and with any questions I might have
-* I want to see what games are involved in each service and why they have been chosen
-* I want to easily find out how to book in for the services on offer
+* As mentioned above, the sticky footer has links to our social media channels and is always on display so users don't need to scroll to find it. The navbar is narrow and unobtrusive so that it doesn't impede the user's view of the site content.
+
+#### As a returning visitor, I want to easily locate the different types of services and understand the cost implications
+* There is a services section on the index page showing the different types of gaming experiences on offer. The contact-us form also has an option to book a service. Future updates would include a calendar booking system, that schools would create a login to use. This would feature more in-depth services information.
+#### I want to easily find a way to contact the organisation for more information, to register interest, and with any questions I might have
+* There is a contact form that is accessible both via the nav bar at the top, and through linked text in the services section. The form asks for first name, surname, and email - there is also a dropdown where you can specify what type of site visitor you are. All fields are mandatory aside from School name, as all visitors won't be from a school. The second dropdown asks for the reason you are contacting us so we can make the contacting experience more efficient.
+
+#### I want to see what games are involved in each service and why they have been chosen
+* The Games page has a dedicated card to each game the service offers. There is clear imagery of each game showcasing them in their best light. The title of each game is included in a different colour, and there is not only a description of what the game's theme/story is, but also a list of bullet-points on why we have chosen each game.
+#### I want to easily find out how to book in for the services on offer
+
 ### Automated Testing
 * #### The W3C Markup Validation Service
 * #### The W3C CSS Validation Service
