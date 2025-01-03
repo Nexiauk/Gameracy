@@ -180,7 +180,9 @@ In the future I would like to implement the following features:
 ## **Testing**
 ### User Story Testing
 #### As a first-time visitor I want to easily understand the purpose of the website, the organisation, and the benefits its services offer
-* 
+* The hero section of the home-page features an image that showcases both gaming and literacy elements. The text also describes what Gameracy is, mentions a team of DBS-checked staff and describes the experience on offer.
+* There is a clearly-definied benefits section with a list of benefits to tabletop gaming.
+* The services section briefly outlines the type of services the organisation offers, and recommends using the contact form to get in touch.
 #### I want to navigate the website easily, with a clear, logical structure to find content
 #### I want to view testimonials or reviews to understand what existing customers think of the organisation and its services
 #### I want to locate the organisation's social media links to view their followings and see if their content is appropriate
