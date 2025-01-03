@@ -95,10 +95,6 @@ section {
     font-size: 2rem;
 }
 
-/* #hero-img {
-    height: 100%;
-} */
-
 /* Spacing between navbar and first section of main content */
 #hero-section,
 #contact-us-section,
@@ -374,6 +370,18 @@ textarea {
         font-size: 1.2rem;
     }
 
+    .main-text {
+        font-size: 1rem;
+    }
+
+    .services-text {
+        font-size: 1rem;
+    }
+
+    .services-header {
+        font-size: 1rem;
+    }
+
     #games-section {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -420,7 +428,7 @@ textarea {
     }
 
     .main-text {
-        font-size: 2rem;
+        font-size: 1.8rem;
         padding-left: 50px;
         padding-right: 50px;
         padding-top: 20px;
@@ -428,12 +436,12 @@ textarea {
     }
 
     .services-text {
-        font-size: 2rem;
+        font-size: 1.8rem;
         padding-bottom: 20px;
     }
 
     .services-header {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #games-section {
