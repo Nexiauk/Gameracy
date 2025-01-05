@@ -214,37 +214,38 @@ In the future I would like to implement the following features:
 * Future update would be the aforementioned booking system, which would have it's own nav-link in a different colour to highlight it and encourage prospective customers to click and book. I would also add a link to book on every single page on the site.
 
 ### Automated Testing
-* #### [The W3C Markup Validation Service](https://validator.w3.org/)
+#### [The W3C Markup Validation Service](https://validator.w3.org/)
 I used the file upload section to directly input my html files. This was easier to rerun after making necessary changes.
 * **index.html** - no errors, only a warning about the hero section not having a header which it doesn't need and is only recommended.
 ![Screenshot of index.html page html check results](../assets/images/readme-images/index-html-check.png)
 
 * **games.html** - came back with error 'p element in scope but a p end tag seen'. I'd put a list inside a p tag, so just needed to move the closing p so it only encompassed the text and not the list. This was an error in the card text for each game. After making this change, no errors.
-<br><br>
-
 ![Screenshot of games.html page html check results](../assets/images/readme-images/games-html-check.png)
 
 * **contact-us.html** - error on the select in the dropdown - '1st child option of a select element with a required attribute needed to have an empty value'. I'd added an option that was disabled, selected and hidden so that 'Choose an option' would appear as the first item in the list. Added an option with an empty value that said 'Choose an option' instead. Did this for both selects in the form. No more errors.
-
 ![Screenshot of contact-us.html page html check](../assets/images/readme-images/contact-html-check.png)
-* **success.html** = no errors, only a warning about the success section not having a header. Again, doesn't need one.
 
+* **success.html** = no errors, only a warning about the success section not having a header. Again, doesn't need one.
 ![Screenshot of success.html page html check](../assets/images/readme-images/success-html-check.png)
-* #### [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+#### [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 I used the file upload section to directly input my CSS file into the checker
 * **style.css** - no errors, only 1 warning about imported style sheets not being checked in direct input and file upload modes so used a direct link to the url of the website hosted on GitHub (https://nexiauk.github.io/Gameracy/index.html) and it came back with 1 error in the footer - 'Value Error : border , is an incorrect operator : solid,1px var(--white-smoke)'. I checked my stylesheet and removed the errant comma. All other warnings related directly to the bootstrap stylesheet. No errors now.
-
 ![Screenshot of style.css validation check](../assets/images/readme-images/style-css-check.png)
-* #### [The WAVE Webb Accessibility Evaluation Tool](https://wave.webaim.org/)
-* **index.html** - 1 contrast error on the 'contact us' link in the services section. Used the built-in contrast ratio tool to lighten the text to a lighter blue, then grabbed the hex code value and applied it to an id for the contact us link. No errors now.
+
+#### [The WAVE Webb Accessibility Evaluation Tool](https://wave.webaim.org/)
+* **index.html** - 1 contrast error on the 'contact us' link in the services section. Used the built-in contrast ratio tool to lighten the text to a lighter blue, then grabbed the hex code value and applied it to an id for the contact us link. No errors now.<br>
 ![Screenshot of the WAVE test results for index.html](../assets/images/readme-images/index-html-accessibility.png)
-* **games.html** - No errors.
-![Screenshot of the WAVE test results for games.html](../assets/images/readme-images/games-html-accessibility.png)
-* **contact-us.html** - An error for a missing label on the 'School Name' field. It has a label but it is hidden, so added an aria-label.
+
+* **games.html** - No errors.<br>![Screenshot of the WAVE test results for games.html](../assets/images/readme-images/games-html-accessibility.png)
+
+* **contact-us.html** - An error for a missing label on the 'School Name' field. It has a label but it is hidden, so added an aria-label.<br>
 ![Screenshot of the WAVE test results for contact-us.html](../assets/images/readme-images/contact-us-accessibility.png)
-* **success.html** - No errors.
+
+* **success.html** - No errors.<br>
 ![Screenshot of the WAVE test results for success.html](../assets/images/readme-images/success-html-accessibility.png)
-* #### Chrome Lighthouse
+
+#### Chrome Lighthouse
 ### Manual Testing
 
 ## **Technologies and Languages**
