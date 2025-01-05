@@ -102,6 +102,10 @@ section {
     margin-top: 10px;
 }
 
+#contact-link {
+    color:#62A0FD;
+}
+
 /* Formatting for the main text across all pages */
 .main-text {
     font-size: 1.2rem;

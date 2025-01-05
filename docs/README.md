@@ -228,7 +228,11 @@ I used the file upload section to directly input my html files. This was easier 
 I used the file upload section to directly input my CSS file into the checker
 * **style.css** - no errors, only 1 warning about imported style sheets not being checked in direct input and file upload modes so used a direct link to the url of the website hosted on GitHub (https://nexiauk.github.io/Gameracy/index.html) and it came back with 1 error in the footer - 'Value Error : border , is an incorrect operator : solid,1px var(--white-smoke)'. I checked my stylesheet and removed the errant comma. All other warnings related directly to the bootstrap stylesheet. No errors now.
 ![Screenshot of style.css validation check](../assets/images/readme-images/style-css-check.png)
-* #### The WAVE Webb Accessibility Evaluation Tool
+* #### [The WAVE Webb Accessibility Evaluation Tool](https://wave.webaim.org/)
+* **index.html** - 1 contrast error on the 'contact us' link in the services section. Used the built-in contrast ratio tool to lighten the text to a lighter blue, then grabbed the hex code value and applied it to an id for the contact us link"
+* **games.html**
+* **contact-us.html**
+* **success.html**
 * #### Chrome Lighthouse
 ### Manual Testing
 
