@@ -214,7 +214,16 @@ In the future I would like to implement the following features:
 * Future update would be the aforementioned booking system, which would have it's own nav-link in a different colour to highlight it and encourage prospective customers to click and book. I would also add a link to book on every single page on the site.
 
 ### Automated Testing
-* #### The W3C Markup Validation Service
+* #### [The W3C Markup Validation Service](https://validator.w3.org/)
+I used the file upload section to directly input my html files. This was easier to rerun after making necessary changes.
+* **index.html** - no errors, only a warning about the hero section not having a header which it doesn't need and is only recommended.
+![Screenshot of index.html page html check results](../assets/images/readme-images/index-html-check.png)
+* **games.html** - came back with error 'p element in scope but a p end tag seen'. I'd put a list inside a p tag, so just needed to move the closing p so it only encompassed the text and not the list. This was an error in the card text for each game. After making this change, no errors.
+![Screenshot of games.html page html check results](../assets/images/readme-images/games-html-check.png)
+* **contact-us.html** - error on the select in the dropdown - '1st child option of a select element with a required attribute needed to have an empty value'. I'd added an option that was disabled, selected and hidden so that 'Choose an option' would appear as the first item in the list. Added an option with an empty value that said 'Choose an option' instead. Did this for both selects in the form. No more errors.
+![Screenshot of contact-us.html page html check](../assets/images/readme-images/contact-html-check.png)
+* **success.html** = no errors, only a warning about the success section not having a header. Again, doesn't need one.
+![Screenshot of success.html page html check](../assets/images/readme-images/success-html-check.png)
 * #### The W3C CSS Validation Service
 * #### The WAVE Webb Accessibility Evaluation Tool
 * #### Chrome Lighthouse
