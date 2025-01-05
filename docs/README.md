@@ -224,7 +224,10 @@ I used the file upload section to directly input my html files. This was easier 
 ![Screenshot of contact-us.html page html check](../assets/images/readme-images/contact-html-check.png)
 * **success.html** = no errors, only a warning about the success section not having a header. Again, doesn't need one.
 ![Screenshot of success.html page html check](../assets/images/readme-images/success-html-check.png)
-* #### The W3C CSS Validation Service
+* #### [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+I used the file upload section to directly input my CSS file into the checker
+* **style.css** - no errors, only 1 warning about imported style sheets not being checked in direct input and file upload modes so used a direct link to the url of the website hosted on GitHub (https://nexiauk.github.io/Gameracy/index.html) and it came back with 1 error in the footer - 'Value Error : border , is an incorrect operator : solid,1px var(--white-smoke)'. I checked my stylesheet and removed the errant comma. All other warnings related directly to the bootstrap stylesheet. No errors now.
+![Screenshot of style.css validation check](../assets/images/readme-images/style-css-check.png)
 * #### The WAVE Webb Accessibility Evaluation Tool
 * #### Chrome Lighthouse
 ### Manual Testing
