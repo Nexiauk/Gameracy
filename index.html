@@ -57,8 +57,17 @@
                 <section id="hero-section" class="container-fluid gx-0">
                     <div class="row gold-outline justify-content-center gx-0 black-bg">
                         <div class="col-12 col-xxl-8">
-                            <img src="assets/images/hero.avif" alt="Image of tabletop gaming elements." width="600"
-                                height="400" id="hero-img">
+
+                            <picture> <!-- Mobile Image -->
+                                <source media="(max-width: 600px)"
+                                    srcset="assets/images/hero-500x333.avif">
+                                <!-- Desktop Image -->
+                                <source media="(min-width: 601px)"
+                                    srcset="assets/images/hero-1084x723.avif">
+                                <!-- Fallback Image --> <img aria-hidden="true" loading="lazy" decoding="async"
+                                    src="hero.avif" alt="Image of tabletop gaming elements with books, pencils and paper."
+                                    width="1920" height="1280">
+                            </picture>
                         </div>
                         <div class="column col-12 col-xxl-4 d-flex align-items-center">
                             <p class="main-text">Gameracy is a tabletop gaming programme that helps
@@ -127,7 +136,9 @@
                         <div class="col-12 col-md-12 col-lg-12">
                             <p class="main-text">Below is a list of the tabletop gaming services we offer for your
                                 school. Get in touch
-                                via the <a href="contact-us.html" aria-label="Link to the contact form." id="contact-link">contact form</a> for more information and prices. Some of our services give a
+                                via the <a href="contact-us.html" aria-label="Link to the contact form."
+                                    id="contact-link">contact form</a> for more information and prices. Some of our
+                                services give a
                                 discount for block bookings.</p>
                         </div>
                         <div class="col-12 col-md-6 col-lg-12 col-xxl-6">

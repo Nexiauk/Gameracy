@@ -232,8 +232,11 @@ I used the file upload section to directly input my CSS file into the checker
 * **index.html** - 1 contrast error on the 'contact us' link in the services section. Used the built-in contrast ratio tool to lighten the text to a lighter blue, then grabbed the hex code value and applied it to an id for the contact us link. No errors now.
 ![Screenshot of the WAVE test results for index.html](../assets/images/readme-images/index-html-accessibility.png)
 * **games.html** - No errors.
-* **contact-us.html**
-* **success.html**
+![Screenshot of the WAVE test results for games.html](../assets/images/readme-images/games-html-accessibility.png)
+* **contact-us.html** - An error for a missing label on the 'School Name' field. It has a label but it is hidden, so added an aria-label.
+![Screenshot of the WAVE test results for contact-us.html](../assets/images/readme-images/contact-us-accessibility.png)
+* **success.html** - No errors.
+![Screenshot of the WAVE test results for success.html](../assets/images/readme-images/success-html-accessibility.png)
 * #### Chrome Lighthouse
 ### Manual Testing
 
