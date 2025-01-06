@@ -236,7 +236,6 @@ I used the file upload section to directly input my CSS file into the checker
 #### [The WAVE Webb Accessibility Evaluation Tool](https://wave.webaim.org/)
 * **index.html** - 1 contrast error on the 'contact us' link in the services section. Used the built-in contrast ratio tool to lighten the text to a lighter blue, then grabbed the hex code value and applied it to an id for the contact us link. No errors now.<br>
 ![Screenshot of the WAVE test results for index.html](../assets/images/readme-images/index-html-accessibility.png)
-
 * **games.html** - No errors.<br>![Screenshot of the WAVE test results for games.html](../assets/images/readme-images/games-html-accessibility.png)
 
 * **contact-us.html** - An error for a missing label on the 'School Name' field. It has a label but it is hidden, so added an aria-label.<br>
@@ -246,6 +245,35 @@ I used the file upload section to directly input my CSS file into the checker
 ![Screenshot of the WAVE test results for success.html](../assets/images/readme-images/success-html-accessibility.png)
 
 #### Chrome Lighthouse
+Initial Lighthouse tests on index.html on desktop came back with 92 for performance, but 100 for Accessibility, Best Practice and SEO. Resized larger images and performance changed to 99.
+
+Installed photopea extension in vs code so I could crop and edit images. Installed Image extension by Nerds Inc for converting easily from png to avif.
+Installed FileZillow extension for easy image compression.
+Converted image files to avif format - now have 100 on performance and pretty confetti.
+
+05/01/25 Ran the tests again for the readme writeup and Best Practice on index.html for desktop was coming back at 92 - it expected to see the hero image at 1084x723 on desktop, even thought it previously didn't expect this and was fine with 600x400. 
+Went and learnt how to do a picture sourceset [acknowledgements section](#acknowledgements) and created two different versions of the hero image, one at 1084x723 and one at 500x333. 
+
+Lighthouse test on mobile for all pages came back with the suggestion to add image height and width to improve scores, and to adjust the size of the logo even further. Made these changes across all pages. See final test results below.
+
+* index.html mobile<br>
+![Screenshot of lighthouse test for mobile, on index.html](../assets/images/readme-images/index-html-lighthouse-mobile.png)
+* index.html desktop<br>
+![Screenshot of lighthouse test for desktop, on index.html](../assets/images/readme-images/index-html-lighthouse-desktop.png)
+
+* games.html mobile<br>
+![Screenshot of lighthouse test for mobile, on games.html](../assets/images/readme-images/games-html-lighthouse-mobile.png)
+* games.html desktop<br>
+![Screenshot of lighthouse test for desktop, on games.html](../assets/images/readme-images/games-html-lighthouse-desktop.png)
+
+* contact-us.html mobile<br>
+![Screenshot of lighthouse test for mobile, on contact-us.html](../assets/images/readme-images/contact-html-lighthouse-mobile.png)
+* contact-us.html desktop<br>
+![Screenshot of lighthouse test for desktop, on contact-us.html](../assets/images/readme-images/contact-html-lighthouse-desktop.png)
+
+* success.html mobile![Screenshot of lighthouse test for mobile, on success.html](../assets/images/readme-images/success-html-lighthouse-mobile.png)
+* success.html desktop![Screenshot of lighthouse test for desktop, on success.html](../assets/images/readme-images/success-html-lighthouse-desktop.png)
+
 ### Manual Testing
 
 ## **Technologies and Languages**
