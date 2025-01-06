@@ -322,15 +322,18 @@ I tested my site on Chrome, Edge, FireFox and Safari.
 * HTML5 - link this
 * CSS3 - link this
 ### Frameworks, Libraries & Programs
-1. Bootstrap
-2. Google fonts
-3. Font Awesome
-4. Git
-5. GitHub Desktop
-6. Moqups
-7. Favicon.io
-8. Visual Studio Code
-9. Spotify - for all the tunes
+ 1. Adobe Color
+ 2. Bootstrap
+ 3. Favicon.io
+ 4. Font Awesome
+ 5. Font Joy
+ 6. Git
+ 7. GitHub Desktop
+ 8. Google Fonts
+ 9. Moqups
+ 10. Spotify
+ 11. Visual Code Studio
+ 12. WebAIM Contrast Checker
 
 
 [Back to Table of Contents](#table-of-contents)
@@ -338,7 +341,7 @@ I tested my site on Chrome, Edge, FireFox and Safari.
 ---
 
 ## **Deployment**
-1. Navigate to the repository.
+1. Navigate to the [repository](https://github.com/Nexiauk/Gameracy).
 2. Click on **Settings** at the top.
 3. Click on **Pages** in the left-hand sidebar (under **Code and automation**)
 4. In the **Source** dropwdown, select **Deploy from a branch.
@@ -346,14 +349,14 @@ I tested my site on Chrome, Edge, FireFox and Safari.
 6. Click the **Save** button next to Main and Root.
 7. The page should refresh and the deployment link will appear in the right-hand sidebar of the repository (under **Deployments**)
 ### Creating a Fork
-1. Navigate to the repository.
+1. Navigate to the [repository](https://github.com/Nexiauk/Gameracy).
 2. In the top-right corner of the page click on the down arrow next to the **Fork** button and select **Create a new fork**.
 3. You can change the name of the fork in **Repository name** and add an optional description.
 4. Tick **Copy the main branch only**.
 5. Click the **Create a Fork** button.
 6. A new repository should appear in your GitHub with the name you chose.
 ### Cloning a Repository
-1. Navigate to the repository.
+1. Navigate to the [repository](https://github.com/Nexiauk/Gameracy).
 2. Click on the **Code** button on top of the repository and copy the link.
 3. Open Git Bash and change the working directory to the location where you want the cloned directory.
 4. Type git clone and then paste the link.
