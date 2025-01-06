@@ -277,12 +277,15 @@ Lighthouse test on mobile for all pages came back with the suggestion to add ima
 ### Manual Testing
 I tested my site on Chrome, Edge, FireFox and Safari. 
 * **Chrome** <br>Mobile 320px. Tablet 768px. Laptop 1024px. Laptop L 1440px. 4k 2560px. 
-    * All images display as expected
-    * The layout reflows and changes as expected
-    * The background image appears and disappears as it should
+    * All nav and footer links work on all pages
+    * All external links open in a new browser window
+    * All images display/disappear as expected across different screen sizes
+    * The layout reflows and changes as expected across different screen sizes
+    * The background image appears and disappears as it should on different screen sizes
     * The Gameracy nav-brand always links back to the home page
     * Hover colours work as expected on laptops and desktops in the nav bar, on buttons, and in the footer
     * All required form fields have to be filled in
+    * The success page loads as expected when the form is filled in correctly
 
 ## **Technologies and Languages**
 ### Languages

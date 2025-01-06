@@ -98,10 +98,12 @@ section {
 /* Spacing between navbar and first section of main content */
 #hero-section,
 #contact-us-section,
+#games-section,
 #success-section {
     margin-top: 10px;
 }
 
+/* Link colour with appropriate contrast ratio for accessibility */
 #contact-link {
     color:#62A0FD;
 }
@@ -365,7 +367,9 @@ textarea {
         font-size: 1.2rem;
     }
 
-    #hero-section {
+    #hero-section,
+    #games-section,
+    #contact-us-section {
         margin-bottom: 20px;
         margin-top: 20px;
     }
@@ -384,11 +388,6 @@ textarea {
 
     .services-header {
         font-size: 1rem;
-    }
-
-    #games-section {
-        margin-top: 10px;
-        margin-bottom: 10px;
     }
 
     #contact-us-section input,
