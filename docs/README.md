@@ -274,7 +274,7 @@ Lighthouse test on mobile for all pages came back with the suggestion to add ima
 * success.html mobile![Screenshot of lighthouse test for mobile, on success.html](../assets/images/readme-images/success-html-lighthouse-mobile.png)
 * success.html desktop![Screenshot of lighthouse test for desktop, on success.html](../assets/images/readme-images/success-html-lighthouse-desktop.png)
 
-### Manual Testing
+### Manual Testing - features and responsiveness
 I tested my site on Chrome, Edge, FireFox and Safari. 
 * **Chrome** <br>Mobile 320px. Tablet 768px. Laptop 1024px. Laptop L 1440px. 4k 2560px. 
     * All nav and footer links work on all pages
@@ -282,11 +282,41 @@ I tested my site on Chrome, Edge, FireFox and Safari.
     * All images display/disappear as expected across different screen sizes
     * The layout reflows and changes as expected across different screen sizes
     * The background image appears and disappears as it should on different screen sizes
-    * The Gameracy nav-brand always links back to the home page
+    * The Gameracy nav-brand always links back to the home page from every other page
     * Hover colours work as expected on laptops and desktops in the nav bar, on buttons, and in the footer
     * All required form fields have to be filled in
     * The success page loads as expected when the form is filled in correctly
-
+    * The burger icon expands and collapses the nav list as expected on mobile screens. If left open, it will disappear by itself when navigating to another page.
+* **Edge** <br>Mobile 320px. Tablet 768px. Laptop 1024px. Laptop L 1440px. 4k 2560px. 
+    * All nav and footer links work on all pages
+    * All external links open in a new browser window
+    * All images display/disappear as expected across different screen sizes
+    * The layout reflows and changes as expected across different screen sizes
+    * The background image appears and disappears as it should on different screen sizes
+    * The Gameracy nav-brand always links back to the home page from every other page
+    * Hover colours work as expected on laptops and desktops in the nav bar, on buttons, and in the footer
+    * All required form fields have to be filled in
+    * The success page loads as expected when the form is filled in correctly
+    * The burger icon expands and collapses the nav list as expected on mobile screens. If left open, it will disappear by itself when navigating to another page.
+* **FireFox** <br>Mobile 320px. Tablet 768px. Laptop 1024px. Laptop L 1440px. 4k 2560px. 
+    * All nav and footer links work on all pages
+    * All external links open in a new browser window
+    * All images display/disappear as expected across different screen sizes
+    * The layout reflows and changes as expected across different screen sizes
+    * The background image appears and disappears as it should on different screen sizes
+    * The Gameracy nav-brand always links back to the home page from every other page
+    * Hover colours work as expected on laptops and desktops in the nav bar, on buttons, and in the footer
+    * All required form fields have to be filled in
+    * The success page loads as expected when the form is filled in correctly
+    * The burger icon expands and collapses the nav list as expected on mobile screens. If left open, it will disappear by itself when navigating to another page.
+* **Safari** <br> tested on an iPhone SE 2023
+    * The burger nav dropdown works as expected on all pages, expanding, collapsing and disappearing as it should
+    * All nav links work on all pages
+    * all active nav-links display in the appropriate colour on the appropriate page
+    * All social media icons in the footer load the relevant app (if it's installed) or the website in a new tab. This works on all pages.
+    * All required form fields have to be filled in
+    * The success page loads as expected when the form is filled in correctly
+    * The Gameracy nav brand takes you back to the home page from any other page
 ## **Technologies and Languages**
 ### Languages
 * HTML5 - link this
