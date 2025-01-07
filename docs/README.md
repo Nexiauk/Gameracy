@@ -289,7 +289,7 @@ I tested my site on Chrome, Edge, FireFox and Safari.
     * The layout reflows and changes as expected across different screen sizes
     * The background image appears and disappears as it should on different screen sizes
     * The Gameracy nav-brand always links back to the home page from every other page
-    * Hover colours work as expected on laptops and desktops in the nav bar, on buttons, and in the footer
+    * Hover colours work as expected on laptops and desktops in the navbar, on buttons, and in the footer
     * All required form fields have to be filled in
     * The success page loads as expected when the form is filled in correctly
     * The burger icon expands and collapses the nav list as expected on mobile screens. If left open, it will disappear by itself when navigating to another page.
@@ -315,14 +315,26 @@ I tested my site on Chrome, Edge, FireFox and Safari.
     * All required form fields have to be filled in
     * The success page loads as expected when the form is filled in correctly
     * The burger icon expands and collapses the nav list as expected on mobile screens. If left open, it will disappear by itself when navigating to another page.
-* **Safari** <br> tested on an iPhone SE 2023
+* **Safari** <br> Tested on an iPhone SE 2023
     * The burger nav dropdown works as expected on all pages, expanding, collapsing and disappearing as it should
     * All nav links work on all pages
-    * all active nav-links display in the appropriate colour on the appropriate page
+    * All active nav-links display in the appropriate colour on the appropriate page
     * All social media icons in the footer load the relevant app (if it's installed) or the website in a new tab. This works on all pages.
     * All required form fields have to be filled in
     * The success page loads as expected when the form is filled in correctly
-    * The Gameracy nav brand takes you back to the home page from any other page
+    * The Gameracy nav brand takes you back to the home page from every page
+
+* **Bugs/Interesting problems** <br>[Navigate to Acknowledgements](#acknowledgements) for links.
+    * Couldn't figure out how to make UL nav items justified only on tablet screens and above, with the navbar also having a width of 75%. Found a site that helped me to create a media query and find out what the elements of nav-justified were so I could adjust accordingly.
+    * Wanted to make a darkened, semi-opaque background for the contact us section and didn't know how to do it. On a stackoverflow post a user called Carlos2W suggested lightening by using background-blend-mode: lighten, using RGBA white with opacity of 0.6. Darken blend-mode and RGBA Black gave me the effect I wanted as per the wireframe.
+    * Options in the services select dropdown were far too large on a screen 2560+ because I had applied styling to the select to make it the same size as the other inputs. Found a post on stackoverflow that helped me figure out how to style the options inside the dropdown separately.
+    * Label wasn't working for the select element on the contact us form, so I found a site that suggested using an aria-label instead, and it was accepted by the lighthouse test.
+    * Background image wasn't working after publishing to GitHub pages - a post on github made me remember about the two dots in the file directory path!
+    * Found a site that helped me to figure out how to add an option value that appears as a placeholder, that doesn't appear in the dropdown. Allows the required function to work, too.
+    * On final lighthouse tests, index.html was suddenly scoring low on Best Practice despite being 100 initially. It related specifically to the hero image and expecting to see it at a higher res on desktop. Found a post on Reddit that explained sourcesets in an easily understandable way so I could have two different res versions of the hero image on different screen sizes, with a 3rd as a backup for browsers that don't support picture/sourcesets. I had to remove the lazy loading code as that also adversely affected my lighthouse scores. User Citrous_Oyster cited [this site](https://codestitch.app/page-speed-handbook) as the source of their information.
+    * Issues with a container displaying at the desired size on a 4k screen - had to change containers to fluid as container only displays a particular size above a particular screen. Spent a little time figuring that out with the help of W3Schools
+
+ 
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -392,10 +404,15 @@ I tested my site on Chrome, Edge, FireFox and Safari.
 * Bootstrap - [getbootstrap.com](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 ### Acknowledgements
 * README file ideas - [Dayana-N](https://github.com/Dayana-N/portfolio-project-1?tab=readme-ov-file) 
+* Webkits for media queries on different browsers - [CSS Auto Prefixer](https://autoprefixer.github.io/
+
+#### Links for [Bugs/Interesting Problems](#links-for-bugsinteresting-problems)
 * Justified nav items on tablet size and above - [bootstrapshuffle](https://bootstrapshuffle.com/classes/navs/nav-justified)
-* Dark, semi-opaque background - [stackoverflow](https://stackoverflow.com/questions/12605908/change-background-image-opacity)
-* Styling options of a select element - [stackoverflow](https://stackoverflow.com/questions/7208786/how-to-style-the-option-of-an-html-select-element)
+* Dark, semi-opaque background - [stackoverflow post by Carlos2W](https://stackoverflow.com/questions/12605908/change-background-image-opacity)
+* Styling options of a select element - [stackoverflow by Zoron19](https://stackoverflow.com/questions/7208786/how-to-style-the-option-of-an-html-select-element)
 * Label doesn't work for select element - [dequeuniversity](https://dequeuniversity.com/rules/axe/4.10/select-name)
 * Relative and absolute filepaths for published images - [github](https://github.com/orgs/community/discussions/83620)
 * Placeholder option value in dropdowns - [educative](https://www.educative.io/answers/how-to-make-select-mandatory-in-html)
+* Picture sourcesets for different screen sizes - [Reddit post by Citrous_Oyster](https://www.reddit.com/r/HTML/comments/1c2xjok/comment/kze63za/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+* Responsive containers for 4k screen size - [W3Schools](https://www.w3schools.com/bootstrap5/bootstrap_containers.php)
 ### Creator Comments
