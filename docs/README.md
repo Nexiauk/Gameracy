@@ -17,6 +17,7 @@ This website has been created as a project during my [Code Institute](https://co
     * [Typography](#typography)
     * [Imagery](#imagery)
     * [Wireframes](#wireframes)
+    * [End Product Design Changes](#end-product-design-changes)
 * [Features](#features)
     * [Responsiveness](#responsiveness)
     * [Header](#header)
@@ -31,10 +32,8 @@ This website has been created as a project during my [Code Institute](https://co
         * [The W3C CSS Validation Service](#the-w3c-css-validation-service)
         * [The WAVE Web Accessibility Evaluation Tool](#the-wave-webb-accessibility-evaluation-tool)
         * [Chrome Lighthouse](#chrome-lighthouse)
-    * [Manual Testing]()
-        * [Features]()
-        * [Browser]()
-        * [Responsiveness]()
+    * [Manual Testing](#manual-testing---features-and-responsiveness)
+    * [Bugs/Interesting Problems](#bugsinteresting-problems)
 * [Technologies and Languages](#technologies-and-languages)
     * [Languages](#languages)
     * [Frameworks, Libraries and Programs](#frameworks-libraries--programs)
@@ -112,11 +111,11 @@ I took a little time with this because I didn't want fonts that contained double
 ### Imagery
 * The hero image needed to be representative of tabletop gaming and literacy. 
 I also wanted it to have some colours that matched with the Gameracy logo, so I spent some time browsing through [freepik.com](https://www.freepik.com/). The image I decided upon was visually attractive, matched the site's colour scheme, and contained all the desired elements that embody Gameracy: gaming, books and writing implements.
-* Once the hero image had been chosen I was able to select further images from the 'similar to...' option on [freepik.com](http://www.freepik.com) that were in keeping with the website's design and ensuring that they looked thematically similar to each other.
-* There were many images of the games to choose from, but I decided upon high-quality, small-size images that showcased each game's components in the best light to illustrate how engaging and fun the games are. It was especially important to me to highlight any miniatures the games possessed, as our current students who take part in Gameracy love them so much and they provide an extra layer of immersion to the experience.
+* Once the hero image had been chosen I was able to select further images for the Benefits and Services sections, and for the success page. I used the the 'similar to...' option on [freepik.com](http://www.freepik.com), using the hero image as the staring point so I could choose images that were in keeping with the website's design and that looked thematically similar to each other.
+* There were many images of the games themslves to choose from, but I decided upon high-quality, small-size images that showcased each game's components in the best light to illustrate how engaging and fun the games are. It was especially important to me to highlight any miniatures the games possessed, as our current students who take part in Gameracy love them so much and they provide an extra layer of immersion to the experience.
 * All images have been saved as avif filetypes, which uses a codec to compress the images without sacrificing quality.
 ### Wireframes
-I created my wireframes using [moqups.com](https://moqups.com) - a streamlined and intuitive online app that lets you create wireframes and prototypes with lots of pre-created, drag-and-drop elements elements for a professional feel. I created a wireframe for each page for mobiles, tablets and desktops so that I could consult my design at any time and remind myself how I wanted it to reflow and restructure as screen sizes changed
+I created my wireframes using [moqups.com](https://moqups.com) - a streamlined and intuitive online app that lets you create wireframes and prototypes with lots of pre-created, drag-and-drop elements for a professional feel. I created a wireframe for each page for mobiles, tablets and desktops so that I could consult my design at any time and remind myself how I wanted it to reflow and restructure as screen sizes changed:
 * [Mobile Homepage Wireframe](https://app.moqups.com/Wpx0gxFP8oTFwRA3hAv52TdenYCYANd4/view/page/ad64222d5?ui=0)
 * [Mobiles Games Wireframe](https://app.moqups.com/Wpx0gxFP8oTFwRA3hAv52TdenYCYANd4/view/page/afebc992c?ui=0)
 * [Mobile Contact Us Wireframe](https://app.moqups.com/Wpx0gxFP8oTFwRA3hAv52TdenYCYANd4/view/page/aa97883ea?ui=0)
@@ -127,6 +126,16 @@ I created my wireframes using [moqups.com](https://moqups.com) - a streamlined a
 * [Desktop Games Wireframe](https://app.moqups.com/Wpx0gxFP8oTFwRA3hAv52TdenYCYANd4/view/page/a84a8febe?ui=0)
 * [Desktop Contact Us Wireframe](https://app.moqups.com/Wpx0gxFP8oTFwRA3hAv52TdenYCYANd4/view/page/a1bdbf46b?ui=0)
 
+### End Product Design Changes
+* Added a sparks background to fill the dead space on larger screen sizes. 
+* Took the outline grid off the nav bar as it looked cleaner and less busy without it.
+* Removed some images from index.html on mobile screen - these reappear on tablet size and above.
+* Made a decision to keep the footer sticky on scrolling as well as the header, so that socials can be accessed at all times throughout the site.
+* Added card and image outlines to the games on larger screens to keep them clearly delineated from each other. 
+* Added hover effects to the submit and home buttons, as well as the socials icons.
+* Added a success.html page that I hadn't accounted for in my initial wireframe designs - this launches after successfully submitting the contact form.
+* Sourced and used D20 dice in font awesome to use as bulletpoints to the text. These weren't in the original designs.
+* Created a favicon.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -165,11 +174,12 @@ The contact form has been built with several different types of fields, includin
 
 ## **Future Features**
 In the future I would like to implement the following features:
-* An interactive booking system with a calendar, and list of services that allows school staff to directly book in. The services would be a lot more detailed, outlining clearly exactly what experience you are getting for your money.
-* A login system so that only school staff can use the booking system
-* On the games page I would like each card image to be replaced with a carousel, so that visitors can cycle through a collection of images showcasing each game in its full glory.
+* The hero image being animated on the first visit to the site.
+* An interactive booking system with a calendar, and list of services that allows school staff to directly book in. The services would be a lot more detailed, outlining clearly exactly what experience you are getting for your money. The booking form would have it's own nav-link in a different colour to highlight it and encourage prospective customers to click and book. I would also add a link to book on every single page on the site.
+* A login system so that only school staff can use the booking system.
+* On the games page I would like each card image to be replaced with a carousel, so that visitors can cycle through a collection of images showcasing each game in its full glory, as well as images of them being setup/played in a school.
 * I would also like to add audio to each game card, showcasing the sound effects and immersive theme tunes that accompany each gameplaying experience.
-* I would like to add a testimonials section on the contact page, so that visitors can easily see and scroll through customer reviews about my company
+* I would like to add a testimonials section on the contact page, so that visitors can easily see and scroll through customer reviews about my company.
 * I would like to add information somewhere about myself as the founder and the award my programme won.
 
 
@@ -183,35 +193,35 @@ In the future I would like to implement the following features:
 * The hero section of the homepage features an image that showcases both gaming and literacy elements. 
 * The text also describes what Gameracy is, mentions a team of DBS-checked staff and describes the experience on offer.
 * There is a clearly-definied benefits section with a list of benefits to tabletop gaming.
-* Future updates would include the hero image being animated on the first visit to the site.
 #### I want to navigate the website easily, with a clear, logical structure to find content
 * There is a visible navigation bar that is sticky, so users can easily browse to another area of the site without the need to scroll back to the top. 
 * On a mobile, the navigation bar is collapsed and uses a recognisable burger icon to trigger a vertical nav bar. The nav-link text is short and to the point and accurately reflects what each page is about. 
 * The nav brand **Gameracy** also links back to the home page from every page.
 #### I want to view testimonials or reviews to understand what existing customers think of the organisation and its services
 * The sticky footer is always on display when a user scrolls, so at any time they can easily navigate to one of the company's social media channels. 
-* A future update would include a testimonials sidebar on the contact us page.
+
 #### I want to locate the organisation's social media links to view their followings and see if their content is appropriate
 * As mentioned above, the sticky footer has links to our social media channels and is always on display so users don't need to scroll to find it. 
 * The footer is also narrow and unobtrusive so that it doesn't impede the user's view of the site content.
 
 #### As a returning visitor, I want to easily locate the different types of services and understand the cost implications
 * There is a services section on the index page showing the different types of gaming experiences on offer, and their prices. 
-* The contact-us form also has an option to book a service. 
-* Future updates would include a calendar booking system, that schools would create a login to use. This would feature more in-depth services information and the ability to book and pay for sessions.
+* The contact us form also has an option to book a service. 
+
 #### I want to easily find a way to contact the organisation for more information, to register interest, and with any questions I might have
 * There is a contact form that is accessible both via the nav bar at the top, and through linked text in the services section. 
 * The form asks for first name, surname, and email - there is also a dropdown where you can specify what type of site visitor you are. 
 * All fields are mandatory aside from school name, as all visitors won't be from a school. 
 * The second dropdown asks for the reason you are contacting us so we can make the contacting experience more efficient.
 #### I want to see what games are involved in each service and why they have been chosen
-* The Games page has a dedicated card to each game the service offers. 
-* There is clear imagery of each game showcasing them in their best light. 
+* The Games page has a dedicated card for each game the service offers. 
+* There is clear imagery of each game, showcasing them all in their best light. 
 * The title of each game is included in a different colour, and there is not only a description of what the game's theme/story is, but also a list of bullet-points on why we have chosen each game.
-* Future updates would include the images being replaced with a carousel for each game, allowing site visitors to view more images of the games themselves, as well as images of them being setup/played in a school.
+
 #### I want to easily find out how to book in for the services on offer
 * The contact us form is always available in the nav bar and there is a link in the services text, too. 
-* Future update would be the aforementioned booking system, which would have it's own nav-link in a different colour to highlight it and encourage prospective customers to click and book. I would also add a link to book on every single page on the site.
+
+[Back to Table of Contents](#table-of-contents)
 
 ### Automated Testing
 #### [The W3C Markup Validation Service](https://validator.w3.org/)
@@ -219,7 +229,7 @@ I used the file upload section to directly input my html files. This was easier 
 * **index.html** - no errors, only a warning about the hero section not having a header which it doesn't need and is only recommended.
 ![Screenshot of index.html page html check results](../assets/images/readme-images/index-html-check.png)
 
-* **games.html** - came back with error 'p element in scope but a p end tag seen'. I'd put a list inside a p tag, so just needed to move the closing p so it only encompassed the text and not the list. This was an error in the card text for each game. After making this change, no errors.
+* **games.html** - came back with error 'No p element in scope but a p end tag seen'. I'd put a list inside a p tag, so just needed to move the closing p so it only encompassed the text and not the list. This was an error in the card text for each game. After making this change, no errors.
 ![Screenshot of games.html page html check results](../assets/images/readme-images/games-html-check.png)
 
 * **contact-us.html** - error on the select in the dropdown - '1st child option of a select element with a required attribute needed to have an empty value'. I'd added an option that was disabled, selected and hidden so that 'Choose an option' would appear as the first item in the list. Added an option with an empty value that said 'Choose an option' instead. Did this for both selects in the form. No more errors.
@@ -255,8 +265,8 @@ Installed photopea extension in vs code so I could crop and edit images. Install
 Installed FileZillow extension for easy image compression.
 Converted image files to avif format - now have 100 on performance and pretty confetti.
 
-05/01/25 Ran the tests again for the readme writeup and Best Practice on index.html for desktop was coming back at 92 - it expected to see the hero image at 1084x723 on desktop, even thought it previously didn't expect this and was fine with 600x400. 
-Went and learnt how to do a picture sourceset [acknowledgements section](#acknowledgements) and created two different versions of the hero image, one at 1084x723 and one at 500x333. 
+05/01/25 Ran the tests again for the readme writeup and Best Practice on index.html for desktop was coming back at 92 - it expected to see the hero image at 1084x723 on desktop, even though it previously didn't expect this and was fine with 600x400. 
+Went and learnt how to do a picture sourceset (see [acknowledgements section](#acknowledgements) ) and created two different versions of the hero image, one at 1084x723 and one at 500x333. 
 
 Lighthouse test on mobile for all pages came back with the suggestion to add image height and width to improve scores, and to adjust the size of the logo even further. Made these changes across all pages. See final test results below.
 
@@ -275,8 +285,10 @@ Lighthouse test on mobile for all pages came back with the suggestion to add ima
 * contact-us.html desktop<br>
 ![Screenshot of lighthouse test for desktop, on contact-us.html](../assets/images/readme-images/contact-html-lighthouse-desktop.png)
 
-* success.html mobile![Screenshot of lighthouse test for mobile, on success.html](../assets/images/readme-images/success-html-lighthouse-mobile.png)
-* success.html desktop![Screenshot of lighthouse test for desktop, on success.html](../assets/images/readme-images/success-html-lighthouse-desktop.png)
+* success.html mobile<br>
+![Screenshot of lighthouse test for mobile, on success.html](../assets/images/readme-images/success-html-lighthouse-mobile.png)
+* success.html desktop<br>
+![Screenshot of lighthouse test for desktop, on success.html](../assets/images/readme-images/success-html-lighthouse-desktop.png)
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -324,15 +336,16 @@ I tested my site on Chrome, Edge, FireFox and Safari.
     * The success page loads as expected when the form is filled in correctly
     * The Gameracy nav brand takes you back to the home page from every page
 
-* **Bugs/Interesting problems** <br>[Navigate to Acknowledgements](#acknowledgements) for links.
-    * Couldn't figure out how to make UL nav items justified only on tablet screens and above, with the navbar also having a width of 75%. Found a site that helped me to create a media query and find out what the elements of nav-justified were so I could adjust accordingly.
-    * Wanted to make a darkened, semi-opaque background for the contact us section and didn't know how to do it. On a stackoverflow post a user called Carlos2W suggested lightening by using background-blend-mode: lighten, using RGBA white with opacity of 0.6. Darken blend-mode and RGBA Black gave me the effect I wanted as per the wireframe.
-    * Options in the services select dropdown were far too large on a screen 2560+ because I had applied styling to the select to make it the same size as the other inputs. Found a post on stackoverflow that helped me figure out how to style the options inside the dropdown separately.
-    * Label wasn't working for the select element on the contact us form, so I found a site that suggested using an aria-label instead, and it was accepted by the lighthouse test.
-    * Background image wasn't working after publishing to GitHub pages - a post on github made me remember about the two dots in the file directory path!
-    * Found a site that helped me to figure out how to add an option value that appears as a placeholder, that doesn't appear in the dropdown. Allows the required function to work, too.
-    * On final lighthouse tests, index.html was suddenly scoring low on Best Practice despite being 100 initially. It related specifically to the hero image and expecting to see it at a higher res on desktop. Found a post on Reddit that explained sourcesets in an easily understandable way so I could have two different res versions of the hero image on different screen sizes, with a 3rd as a backup for browsers that don't support picture/sourcesets. I had to remove the lazy loading code as that also adversely affected my lighthouse scores. User Citrous_Oyster cited [this site](https://codestitch.app/page-speed-handbook) as the source of their information.
-    * Issues with a container displaying at the desired size on a 4k screen - had to change containers to fluid as container only displays a particular size above a particular screen. Spent a little time figuring that out with the help of W3Schools
+ ### Bugs/Interesting problems <br>
+ [Navigate to Acknowledgements](#acknowledgements) for links.
+* Couldn't figure out how to make UL nav items justified only on tablet screens and above, with the navbar also having a width of 75%. Found a site that helped me to create a media query and figure out what the elements of nav-justified were so I could target them and adjust accordingly.
+* Wanted to make a darkened, semi-opaque background for the contact us section and didn't know how to do it. On a stackoverflow post a user called Carlos2W suggested lightening by using background-blend-mode: lighten, using RGBA white with opacity of 0.6. Darken blend-mode and RGBA Black gave me the effect I wanted as per the wireframe.
+* Options in the services select dropdown were far too large on a screen 2560+ because I had applied styling to the select to make it the same size as the other inputs. Found a post on stackoverflow that helped me figure out how to style the options inside the dropdown separately.
+* Label wasn't working for the select element on the contact us form, so I found a site that suggested using an aria-label instead, and it was accepted by the lighthouse test.
+* Background image wasn't working after publishing to GitHub pages - a post on github made me remember about the two dots in the file directory path!
+* Found a site that helped me to figure out how to add an option value that appears as a placeholder, that doesn't appear in the dropdown. Allows the required function to work, too.
+* On final lighthouse tests, index.html was suddenly scoring low on Best Practice despite being 100 initially. It related specifically to the hero image and expecting to see it at a higher res on desktop. Found a post on Reddit that explained sourcesets in an easily understandable way so I could have two different res versions of the hero image on different screen sizes, with a 3rd as a backup for browsers that don't support picture/sourcesets. I had to remove the lazy loading code as that also adversely affected my lighthouse scores. User Citrous_Oyster cited [this site](https://codestitch.app/page-speed-handbook) as the source of their information.
+* Issues with a container displaying at the desired size on a 4k screen - had to change containers to fluid as container only displays a particular size above a particular screen. Spent a little time figuring that out with the help of W3Schools
 
  
 
@@ -395,6 +408,10 @@ I tested my site on Chrome, Edge, FireFox and Safari.
 * Sparks background - [Starline on Freepik.com](https://www.freepik.com/)
 * Benefits header imager - [Freepik.com](https://www.freepik.com/)
 * Our Services header image - [Freepik.com](https://www.freepik.com/)
+* Escape the Dark Castle image - [Nervewax.com](https://nervewax.com/content/images/2019/09/escapethedarkcastle02.jpg)
+* Betrayal at House on the Hill image - [Walmart.com](https://i5.walmartimages.com/asr/a336b09b-c5cf-4207-a482-cd51e67d6646.6098eee8d298cacc15858dbd2245e5f3.jpeg?odnHeight=117&odnWidth=117&odnBg=FFFFFF)
+* Zombies!!! image - [Bert's Tabletop Games](https://www.bert.games/post/review-zombies)
+* Escape the Dark Sector pic - [boardgamegeek.com](https://boardgamegeek.com/image/5656737/escape-the-dark-sector)
 * Contact success image - [Freepik.com](https://www.freepik.com/)
 * Favicon - [favicon.io](https://favicon.io/)
 * Gameracy icon - created by myself and used on Leicester College Moodle/LC marketing materials
@@ -415,4 +432,9 @@ I tested my site on Chrome, Edge, FireFox and Safari.
 * Placeholder option value in dropdowns - [educative](https://www.educative.io/answers/how-to-make-select-mandatory-in-html)
 * Picture sourcesets for different screen sizes - [Reddit post by Citrous_Oyster](https://www.reddit.com/r/HTML/comments/1c2xjok/comment/kze63za/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 * Responsive containers for 4k screen size - [W3Schools](https://www.w3schools.com/bootstrap5/bootstrap_containers.php)
+
+[Back to Table of Contents](#table-of-contents)
+
+---
+
 ### Creator Comments
