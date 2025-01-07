@@ -437,3 +437,4 @@ I tested my site on Chrome, Edge, FireFox and Safari.
 ---
 
 ### Creator Comments
+I really enjoyed creating this website for my imaginary company. The Gameracy programme is in it's sixth year and is still running strong, so if the outreach programme ever becomes a reality I will already have the bones of a website in place that could pretty much be launched with only minor tweaks. I started this project with some knowledge of HTML, CSS and Bootstrap, but I've learnt a whole host of things I didn't know before and have used tools I wasn't even aware of. 
