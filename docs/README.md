@@ -367,9 +367,8 @@ I tested my site on Chrome, Edge, FireFox and Safari.
  7. GitHub Desktop
  8. Google Fonts
  9. Moqups
- 10. Spotify
- 11. Visual Code Studio
- 12. WebAIM Contrast Checker
+ 10. Visual Code Studio
+ 11. WebAIM Contrast Checker
 
 [Back to Table of Contents](#table-of-contents)
 
