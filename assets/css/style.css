@@ -4,7 +4,6 @@
 * Autoprefixer: v10.4.7
 * Browsers: last 4 version
 */
-
 /* Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&family=Squada+One&display=swap');
 
@@ -401,6 +400,7 @@ textarea {
         padding: 0.5rem;
     }
 
+    /* Style options inside a select */
     #option *,
     #who * {
         font-size: 1rem;
@@ -490,6 +490,7 @@ textarea {
         margin-bottom: 20px;
     }
 
+    /* Style options inside a select */
     #option *,
     #who * {
         font-size: 1rem;
