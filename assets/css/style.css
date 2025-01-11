@@ -318,6 +318,7 @@ textarea {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        background-color: var(--black-smoke);
     }
 
     .hide-img {
