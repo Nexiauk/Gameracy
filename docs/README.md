@@ -422,7 +422,7 @@ I tested my site on Chrome, Edge, FireFox and Safari.
 * README file ideas - [Dayana-N](https://github.com/Dayana-N/portfolio-project-1?tab=readme-ov-file) 
 * Webkits for media queries on different browsers - [CSS Auto Prefixer](https://autoprefixer.github.io/
 
-#### Links for [Bugs/Interesting Problems](#links-for-bugsinteresting-problems)
+#### Links for [Bugs/Interesting Problems](#bugsinteresting-problems)
 * Justified nav items on tablet size and above - [bootstrapshuffle](https://bootstrapshuffle.com/classes/navs/nav-justified)
 * Dark, semi-opaque background - [stackoverflow post by Carlos2W](https://stackoverflow.com/questions/12605908/change-background-image-opacity)
 * Styling options of a select element - [stackoverflow by Zoron19](https://stackoverflow.com/questions/7208786/how-to-style-the-option-of-an-html-select-element)
