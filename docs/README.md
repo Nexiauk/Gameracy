@@ -363,20 +363,20 @@ I tested my site on Chrome, Edge, FireFox and Safari.
 
 ## **Technologies and Languages**
 ### Languages
-* HTML5 - link this
-* CSS3 - link this
+* [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - was used to structure this project
+* [CSS3]https://developer.mozilla.org/en-US/docs/Web/CSS - was used to style HTML elements
 ### Frameworks, Libraries & Programs
- 1. Adobe Color
- 2. Bootstrap
- 3. Favicon.io
- 4. Font Awesome
- 5. Font Joy
- 6. Git
- 7. GitHub Desktop
- 8. Google Fonts
- 9. Moqups
- 10. Visual Code Studio
- 11. WebAIM Contrast Checker
+ 1. [Adobe Color](https://color.adobe.com/) - was used to generate an accessible colour palette
+ 2. [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - was used to build a mobile-first, responsive grid layout
+ 3. [Favicon.io](https://favicon.io/) - was used to create a custom favicon
+ 4. [Font Awesome](https://fontawesome.com/) - was used to generate the D20 bullet points
+ 5. [Font Joy](https://fontjoy.com/) - was used to generate font combinations
+ 6. [Git](https://git-scm.com/) - was used as version control software
+ 7. [GitHub Desktop](https://desktop.github.com/download/) - was used to cimplify the development workflow between VSCode and github
+ 8. [Google Fonts](https://fonts.google.com/) - was the source of the fonts used
+ 9. [Moqups](https://moqups.com/) - was used to create the wireframes
+ 10. [Visual Code Studio](https://code.visualstudio.com/) - was the code editor used for this project
+ 11. [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) - was used to check contrast of colours for accessibility
 
 [Back to Table of Contents](#table-of-contents)
 
