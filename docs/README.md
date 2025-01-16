@@ -193,10 +193,14 @@ In the future I would like to implement the following features:
 * The hero section of the homepage features an image that showcases both gaming and literacy elements. 
 * The text also describes what Gameracy is, mentions a team of DBS-checked staff and describes the experience on offer.
 * There is a clearly-definied benefits section with a list of benefits to tabletop gaming.
+![Screenshot of the hero section](../assets/images/readme-images/hero-section.png)
+![Screenshot of the benefits section](../assets/images/readme-images/benefits.png)
+
 #### I want to navigate the website easily, with a clear, logical structure to find content
 * There is a visible navigation bar that is sticky, so users can easily browse to another area of the site without the need to scroll back to the top. 
 * On a mobile, the navigation bar is collapsed and uses a recognisable burger icon to trigger a vertical nav bar. The nav-link text is short and to the point and accurately reflects what each page is about. 
 * The nav brand **Gameracy** also links back to the home page from every page.
+
 #### I want to view testimonials or reviews to understand what existing customers think of the organisation and its services
 * The sticky footer is always on display when a user scrolls, so at any time they can easily navigate to one of the company's social media channels. 
 
@@ -207,6 +211,8 @@ In the future I would like to implement the following features:
 #### As a returning visitor, I want to easily locate the different types of services and understand the cost implications
 * There is a services section on the index page showing the different types of gaming experiences on offer, and their prices. 
 * The contact us form also has an option to book a service. 
+![Screenshot of the services section](../assets/images/readme-images/services.png)
+![Screenshot of contact form with Book a Service selected in the dropdown](../assets/images/readme-images/contact-booking.png)
 
 #### I want to easily find a way to contact the organisation for more information, to register interest, and with any questions I might have
 * There is a contact form that is accessible both via the nav bar at the top, and through linked text in the services section. 
@@ -217,6 +223,8 @@ In the future I would like to implement the following features:
 * The Games page has a dedicated card for each game the service offers. 
 * There is clear imagery of each game, showcasing them all in their best light. 
 * The title of each game is included in a different colour, and there is not only a description of what the game's theme/story is, but also a list of bullet-points on why we have chosen each game.
+![Screenshot of the games page](../assets/images/readme-images/games-page.png)
+![Screenshot of the games page](../assets/images/readme-images/games-page2.png)
 
 #### I want to easily find out how to book in for the services on offer
 * The contact us form is always available in the nav bar and there is a link in the services text, too. 
