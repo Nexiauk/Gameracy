@@ -44,7 +44,7 @@ This website has been created as a project during my [Code Institute](https://co
     * [Media](#media)
     * [Code Help](#code-help)
     * [Acknowledgements](#acknowledgements)
-    * [Creator Comment](#creator-comments)
+    * [Creator Comments](#creator-comments)
 
 ## **Inspiration**
 I work in a library at an FE college where I run an award-winning tabletop gaming programme for disengaged 14-18 year olds. 
@@ -364,7 +364,7 @@ I tested my site on Chrome, Edge, FireFox and Safari.
 ## **Technologies and Languages**
 ### Languages
 * [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - was used to structure this project
-* [CSS3]https://developer.mozilla.org/en-US/docs/Web/CSS - was used to style HTML elements
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - was used to style HTML elements
 ### Frameworks, Libraries & Programs
  1. [Adobe Color](https://color.adobe.com/) - was used to generate an accessible colour palette
  2. [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - was used to build a mobile-first, responsive grid layout
@@ -372,7 +372,7 @@ I tested my site on Chrome, Edge, FireFox and Safari.
  4. [Font Awesome](https://fontawesome.com/) - was used to generate the D20 bullet points
  5. [Font Joy](https://fontjoy.com/) - was used to generate font combinations
  6. [Git](https://git-scm.com/) - was used as version control software
- 7. [GitHub Desktop](https://desktop.github.com/download/) - was used to cimplify the development workflow between VSCode and github
+ 7. [GitHub Desktop](https://desktop.github.com/download/) - was used to simplify the development workflow between VSCode and github
  8. [Google Fonts](https://fonts.google.com/) - was the source of the fonts used
  9. [Moqups](https://moqups.com/) - was used to create the wireframes
  10. [Visual Code Studio](https://code.visualstudio.com/) - was the code editor used for this project
@@ -420,15 +420,14 @@ I tested my site on Chrome, Edge, FireFox and Safari.
 * Zombies!!! image - [Bert's Tabletop Games](https://www.bert.games/post/review-zombies)
 * Escape the Dark Sector pic - [boardgamegeek.com](https://boardgamegeek.com/image/5656737/escape-the-dark-sector)
 * Contact success image - [Freepik.com](https://www.freepik.com/)
-* Favicon - [favicon.io](https://favicon.io/)
-* Gameracy icon - created by myself and used on Leicester College Moodle/LC marketing materials
+* Gameracy icon - created by myself and used on Leicester College Moodle/[LC marketing materials](https://www.fenews.co.uk/education/leicester-college-library-programme-wins-national-award-for-innovation/)
 ### Code help
 * CSS - [w3schools.com](https://www.w3schools.com/css/default.asp)
 * HTML - [w3schools.com](https://www.w3schools.com/html/default.asp)
 * Bootstrap - [getbootstrap.com](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 ### Acknowledgements
 * README file ideas - [Dayana-N](https://github.com/Dayana-N/portfolio-project-1?tab=readme-ov-file) 
-* Webkits for media queries on different browsers - [CSS Auto Prefixer](https://autoprefixer.github.io/
+* Webkits for media queries on different browsers - [CSS Auto Prefixer](https://autoprefixer.github.io/)
 
 #### Links for [Bugs/Interesting Problems](#bugsinteresting-problems)
 * Justified nav items on tablet size and above - [bootstrapshuffle](https://bootstrapshuffle.com/classes/navs/nav-justified)
