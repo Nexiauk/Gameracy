@@ -160,7 +160,6 @@ section {
     background-color: var(--black-smoke);
 }
 
-
 .card h3 {
     color: var(--misty-yellow);
 }
@@ -495,9 +494,10 @@ textarea {
         padding-top: 0;
     }
 
-.section-text-height {
-    min-height: 680px;
-}
+    .section-text-height {
+        min-height: 680px;
+    }
+
     #games-section {
         margin-bottom: 20px;
     }
