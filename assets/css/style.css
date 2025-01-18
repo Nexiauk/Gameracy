@@ -348,10 +348,10 @@ textarea {
         padding-left: 10px;
     }
 
-    /* #services-section >.row,
+    #services-section >.row,
     #benefits-section >.row {
         min-height: 891px;
-    } */
+    }
 
     #benefits-section {
         padding-right: 10px;
@@ -395,10 +395,10 @@ textarea {
         font-size: 1rem;
     }
 
-    /* #services-section >.row,
+    #services-section >.row,
     #benefits-section >.row {
     min-height: 670px;
-    } */
+    }
 
     #contact-us-section input,
     #contact-us-section textarea,
