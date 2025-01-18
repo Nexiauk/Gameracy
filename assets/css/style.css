@@ -351,9 +351,8 @@ textarea {
         padding-left: 10px;
     }
 
-    #services-section>.row,
-    #benefits-section>.row {
-        min-height: 891px;
+    .section-text-height {
+        min-height: 650px;
     }
 
     #benefits-section {
@@ -386,6 +385,10 @@ textarea {
         font-size: 1.2rem;
     }
 
+    .section-text-height {
+        min-height: 350px;
+    }
+
     .main-text {
         font-size: 1rem;
     }
@@ -396,11 +399,6 @@ textarea {
 
     .services-header {
         font-size: 1rem;
-    }
-
-    #services-section>.row,
-    #benefits-section>.row {
-        min-height: 670px;
     }
 
     #contact-us-section input,
@@ -495,12 +493,9 @@ textarea {
     .services-header {
         font-size: 1.8rem;
     }
-
-    #services-section>.row,
-    #benefits-section>.row {
-        min-height: 1235px;
-    }
-
+.section-text-height {
+    min-height: 680px;
+}
     #games-section {
         margin-bottom: 20px;
     }
