@@ -262,6 +262,13 @@ textarea {
     color: var(--misty-yellow);
 }
 
+@media screen and (max-width: 319px) {
+    .hide-img {
+        display: none;
+        /* Firefox-specific code for hiding images */
+        visibility: hidden;
+    }
+}
 /* Responsive media queries for phones 320px and above */
 @media screen and (min-width:320px) {
     .hide-img {
