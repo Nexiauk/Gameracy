@@ -348,6 +348,11 @@ textarea {
         padding-left: 10px;
     }
 
+    /* #services-section >.row,
+    #benefits-section >.row {
+        min-height: 891px;
+    } */
+
     #benefits-section {
         padding-right: 10px;
     }
@@ -389,6 +394,11 @@ textarea {
     .services-header {
         font-size: 1rem;
     }
+
+    /* #services-section >.row,
+    #benefits-section >.row {
+    min-height: 670px;
+    } */
 
     #contact-us-section input,
     #contact-us-section textarea,
@@ -436,6 +446,11 @@ textarea {
     .services-header {
         font-size: 1.2rem;
     }
+
+    #games-section .dark-castle,
+    #games-section .betrayal {
+        min-height: 87rem;
+    }
 }
 
 /* Media query for 4k screens 2560px and above */
@@ -476,6 +491,11 @@ textarea {
 
     .services-header {
         font-size: 1.8rem;
+    }
+
+    #services-section >.row,
+    #benefits-section >.row {
+    min-height: 1235px;
     }
 
     #games-section {
