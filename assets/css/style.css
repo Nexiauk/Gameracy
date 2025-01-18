@@ -72,7 +72,7 @@ section {
     font-family: 'Cardo', sans-serif;
     font-weight: bold;
     font-style: italic;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     padding-top: 6px;
 }
 
@@ -282,7 +282,7 @@ textarea {
 
     #games-section {
         margin-top: 10px;
-        margin-bottom: 0;
+        margin-bottom: 10px;;
     }
 
     #games-section .card {
@@ -401,6 +401,17 @@ textarea {
         padding: 0.5rem;
     }
 
+    /* classes to give the cards a min-height so they appear even sizes */
+    #games-section .dark-castle,
+    #games-section .betrayal {
+        min-height: 78rem;
+    }
+
+    #games-section .dark-sector,
+    #games-section .zombies {
+        min-height: 70rem;
+    }
+
     /* Style options inside a select */
     #option *,
     #who * {
@@ -473,6 +484,16 @@ textarea {
 
     #games-section h3 {
         font-size: 2.5rem;
+    }
+
+    #games-section .dark-castle,
+    #games-section .betrayal {
+        min-height: 136rem;
+    }
+
+    #games-section .dark-sector,
+    #games-section .zombies {
+        min-height: 128rem;
     }
 
     #socials {
