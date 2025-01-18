@@ -104,7 +104,7 @@ section {
 
 /* Link colour with appropriate contrast ratio for accessibility */
 #contact-link {
-    color:#62A0FD;
+    color: #62A0FD;
 }
 
 /* Formatting for the main text across all pages */
@@ -258,7 +258,6 @@ textarea {
     background-color: var(--black-smoke);
 }
 
-
 /* Colour of D20 bulletpoints */
 .fa-solid.fa-dice-d20 {
     color: var(--misty-yellow);
@@ -268,6 +267,7 @@ textarea {
 @media screen and (min-width:320px) {
     .hide-img {
         display: none;
+        /* Firefox-specific code for hiding images */
         visibility: hidden;
     }
 
@@ -283,7 +283,7 @@ textarea {
 
     #games-section {
         margin-top: 10px;
-        margin-bottom: 10px;;
+        margin-bottom: 10px;
     }
 
     #games-section .card {
@@ -324,6 +324,7 @@ textarea {
 
     .hide-img {
         display: block;
+        /* Firefox-specific code for showing hidden images */
         visibility: visible;
     }
 
@@ -350,8 +351,8 @@ textarea {
         padding-left: 10px;
     }
 
-    #services-section >.row,
-    #benefits-section >.row {
+    #services-section>.row,
+    #benefits-section>.row {
         min-height: 891px;
     }
 
@@ -397,9 +398,9 @@ textarea {
         font-size: 1rem;
     }
 
-    #services-section >.row,
-    #benefits-section >.row {
-    min-height: 670px;
+    #services-section>.row,
+    #benefits-section>.row {
+        min-height: 670px;
     }
 
     #contact-us-section input,
@@ -495,9 +496,9 @@ textarea {
         font-size: 1.8rem;
     }
 
-    #services-section >.row,
-    #benefits-section >.row {
-    min-height: 1235px;
+    #services-section>.row,
+    #benefits-section>.row {
+        min-height: 1235px;
     }
 
     #games-section {
